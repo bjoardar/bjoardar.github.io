@@ -81,11 +81,12 @@
           <br>I am a Postdoc (<a href="https://cifellows2020.org/2020-class/" target="_blank">CI-Fellow</a>) working with my mentor Dr. <a href="http://people.ee.duke.edu/~krish/" target="_blank">Krishnendu Chakrabarty</a> at Duke University. 
           Before starting at Duke, I was a PhD candiate at Washington State University where I was advised by Dr. <a href="https://eecs.wsu.edu/~pande/" target="_blank">Partha Pratim Pande</a> and Dr. <a href="https://eecs.wsu.edu/~jana/" target="_blank">Janardhan Rao Doppa</a>. 
           I completed my undergraduate at the Department of Electronics and Telecommunications Engineering, Jadavpur University, India. Apart from research, I enjoy being outdoor, especially playing football (soccer) and badminton, and working out at the gym. 
-          I also spend a lot of time reading about a variety of topics (<a href="https://www.youtube.com/watch?v=2Z6UJbwxBZI" target="_blank">Did you know Liquid Helium can climb walls!</a>). <br><br>I'm currently working on "<i>Machine Learning for Machine Learning</i>" (ML for ML). 
-          The aim of this project is to enable a virtuous cycle of Machine Learning-based hardware design to further empower advances in Machine Learning. 
-          The project has two parts: (a) ML for hardware design: ML can be used to improve the hardware design process at several stages starting from netlist optimization to late-stage testing and verification. 
-          and (b) Hardware Design for ML applications: As ML algorithms become increasingly complex, new architectures to enable them are needed. Both these aspects are two sides of the same coin and need to be investigated parallelly.
-          Over the next few years, I will explore how ML and hardware design can benefit each other. 
+          I also spend a lot of time reading about a variety of topics (<a href="https://www.youtube.com/watch?v=2Z6UJbwxBZI" target="_blank">Did you know Liquid Helium can climb walls!</a>). <br>
+          <br>I'm currently working on "<i>Reliable In-Memory Computing Architectures for Machine Learning</i>". 
+          Emerging technologies such as 3D integration and Resistive Random Access Memory (ReRAM) promise significant speed-up for machine learning (ML). However, due to relatively immature fabrication process,
+          architectures based on these technologies are not reliable. This makes training and inferencing of CNNs challenging as weights are misrepresented when they are stored on faulty hardware.
+          Next, noise affects various deep learning algorithms differently. In Graph Neural Networks (GNNs), the recursive message passing mechanism leads to repeated accumulation of noise. Similarly, in Recurrent Neural Networks (RNNs), 
+          noise is accumulated multiple times due to the presence of loops. My research aims to develop novel and inexpensive techniques to solve these problems. 
           I would love to hear from, learn and collaborate with other researchers working in these domains. 
           <!--<br><br>All my works so far, are listed <a href=#publications> <b>HERE</b></a>. Please let me know if you have any feedback to improve them in future. -->
 		  <br><br><b>My research interests include: </b>  
@@ -190,7 +191,7 @@
 </head>
 <body>
 
-<button type="button" class="collapsible"><b>1. ML for Hardware Design</b></button>
+<button type="button" class="collapsible"><b>1. ML for Manycore design</b></button>
 <div class="content">
 	<p>The availability of different core architectures (CPUs, GPUs, NVMs, FPGAs, etc.) and interconnection technologies (e.g., TSV-based stacking, M3D, Photonics, Wireless etc.) has revolutionized high-performance hardware design.  
             However, the resulting diversity in the choice of hardware has made the design, evaluation, and testing of new architectures an increasingly challenging problem. 
@@ -209,18 +210,17 @@
 	</p>
 </div>
 
-<button type="button" class="collapsible"><b>2. Hardware Accelerators for ML</b></button>
+<button type="button" class="collapsible"><b>2. In-memory computing architectures for ML</b></button>
 <div class="content">
 	<p>ML has become ubiquitious in real life with applications in healthcare, recommendation systems, self-driving cars, etc. 
             However, ML algorithms (particularly Deep Learning) is computationally challenging from the perspective of hardware. 
             General purpose cores like CPU and GPU are not optimized for these applications, leading to sub-optimal performance. 
             Some of the most notable limitations of existing architectures are: (a) high area requirements, (b) relatively low performance per watt, and (c) limited memory bandwidth.         
-            Hence, new architectures with domain-specific customizations are necessary for accelerating ML applications. 
+            Hence, new in-memory computing architectures with domain-specific customizations are necessary for accelerating ML applications. 
             <br><b>Relevant publications:</b> 
             <div>
 			   <ol type="1">
 				  <li><a href="https://ieeexplore.ieee.org/abstract/document/9153831" target="_blank"><b>B. K. Joardar</b>, J. R. Doppa, P. P. Pande, H. Li and K. Chakrabarty, "AccuReD: High Accuracy Training of CNNs on ReRAM/GPU Heterogeneous 3D Architecture," in IEEE <i>Transactions on Computer-Aided Design of Integrated Circuits and Systems</i>, 2020</a></li>
-				  <li><a href="https://dl.acm.org/citation.cfm?id=3130219" target="_blank"><b>B. K. Joardar</b>, W. Choi, R. G. Kim, J. R. Doppa, P. P. Pande, D. Marculescu and R. Marculescu, "3D NoC-Enabled Heterogeneous Manycore Architectures for Accelerating CNN Training: Performance and Thermal Trade-offs," In Proceedings of the Eleventh IEEE/ACM International Symposium on Networks-on-Chip (NOCS '17), New York, NY, USA, 2017, Article 18 </a></li>
           <li><a href="https://arxiv.org/abs/2102.07959" target="_blank">A. I. Arka, <b>B. K. Joardar</b>, J. R. Doppa, P. P. Pande and K. Chakrabarty, “ReGraphX: NoC-enabled 3D Heterogeneous ReRAM Architecture for Training Graph Neural Networks,” in Design, Automation & Test in Europe Conference & Exhibition (DATE), Grenoble, France, 2021 <span style="color: #ff0000"><b>(Best Paper Nomination)</b></span>.</a></li> 			  
         </ol> 
 			  </div><br>
@@ -229,7 +229,7 @@
 
 <button type="button" class="collapsible"><b>3. Reliable ML using Unreliable Hardware</b></button>
 <div class="content">
-	<p>New and emerging technologies like Processing-in-memory, Monolithic 3D and Non-volatile memory promise significant power-performance benefits for ML applications. 
+	<p>New and emerging technologies like Processing-in-memory, 3D integration and ReRAMs promise significant power-performance benefits for ML applications. 
             However, due to immature fabrication technologies, they are prone to failures and other non-ideal effects. This makes these architectures highly unreliable despite their advantages.
             Hence, it is important to develop error-tolerant ML applications that can deliver equal prediction accuracy even when the underlying hardware is faulty/unreliable. 
             This will not only promote the widespread adoption of these new and emerging technologies but also lead to faster ML applications.
