@@ -3,44 +3,6 @@
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
-.tooltip {
-  position: relative;
-  display: inline-block;
-  border-bottom: 1px dotted black;
-}
-
-.tooltip .tooltiptext {
-  visibility: hidden;
-  width: 120px;
-  background-color: #555;
-  color: #fff;
-  text-align: center;
-  border-radius: 6px;
-  padding: 5px 0;
-  position: absolute;
-  z-index: 1;
-  bottom: 125%;
-  left: 50%;
-  margin-left: -60px;
-  opacity: 0;
-  transition: opacity 0.3s;
-}
-
-.tooltip .tooltiptext::after {
-  content: "";
-  position: absolute;
-  top: 100%;
-  left: 50%;
-  margin-left: -5px;
-  border-width: 5px;
-  border-style: solid;
-  border-color: #555 transparent transparent transparent;
-}
-
-.tooltip:hover .tooltiptext {
-  visibility: visible;
-  opacity: 1;
-}
 
 html {
   box-sizing: border-box;
@@ -115,9 +77,7 @@ html {
       <div class="container">
         <h2>Chung-Hsuan Tung</h2>
         <p class="title">PhD student</p>
-          <p><button class="button"><div class="tooltip">About me
-            <span class="tooltiptext">Chung-Hsuan Tung is a first-year Ph.D. student in the Electrical and Computer Engineering department at Duke University. He received his Bachelor of Science from the Department of Electrical Engineering at National Cheng Kung University (NCKU) in Taiwan in 2020. His research focuses on computer architecture, fault-tolerance systems, and security and machine learning, specifically on ReRAM-based hardware acceleration for machine learning applications. Chung-Hsuan received an award as an Outstanding Winner at the 2018 Synopsys ARC Design Contest with his team’s IoT vending machine and cloud management system. He is also an honorary member of the Phi Tau Phi Scholastic Honor Society of the Republic of China for being named as the top student (1/155) in his undergraduate academic performance</span>
-          </div></button></p>
+        <p><button class="button">About Me</button></p>
       </div>
     </div>
   </div>
