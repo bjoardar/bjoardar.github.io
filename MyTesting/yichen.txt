@@ -1,0 +1,2 @@
+I am Yi-Chen Chang, a PhD student in Prof. Chakrabarty’s research group from 2021. Before joining Duke, I received my Bachelor degree in the Interdisciplinary Program of Nuclear Science in 2019 and my Master degree in Computer Science in 2021 from National Tsing Hua University, Hsinchu, Taiwan. My research interest is design automation of digital microfluidic biochips.
+
