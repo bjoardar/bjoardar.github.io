@@ -1,0 +1,1 @@
+Yuan Li is an undergraduate from Duke Kunshan University majoring in data science. His current research interest is applied machine learning for interconnected systems focusing on relational structures and networks. He is also interested in applying machine learning to solve health-related problems.
