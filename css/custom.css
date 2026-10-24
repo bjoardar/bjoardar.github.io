@@ -52,3 +52,19 @@
 	#body img.figure { max-width:70%; height:auto; margin:0 auto 1.5rem; border-radius:6px; }
 }
 @media (prefers-reduced-motion: reduce) { * { transition:none !important; } }
+
+/* ---------- Publications page ---------- */
+.intro { max-width:46rem; font-size:16px; line-height:1.7; margin:0 0 1rem; }
+.jump { display:flex; flex-wrap:wrap; gap:.4rem 1.5rem; margin:0 0 .5rem; font-size:15px; }
+.jump a { color:#077054; }
+.pubs-list h3 { font-family:'nixie_oneregular', Georgia, serif; font-weight:normal; font-size:26px; line-height:1.2; color:#21a51e; margin:2.5rem 0 1rem; padding:0 0 .4rem; border-bottom:1px solid #cfe0d8; scroll-margin-top:1rem; }
+.pubs-list h3 small { font-family:'latoregular', Arial, sans-serif; font-size:14px; color:#5b7a6f; margin-left:.5rem; }
+.pubs-list ol { margin:0; padding-left:2.6rem; }
+.pubs-list li { margin:0 0 .85rem; padding-left:.25rem; font-size:14.5px; line-height:1.55; }
+.pubs-list li::marker { color:#88b4a8; font-size:13px; }
+.pubs-list li a { color:inherit; text-decoration:none; }
+.pubs-list li a:hover { color:#c33; text-decoration:underline; }
+.pubs-list li a:focus-visible { outline:2px solid #077054; outline-offset:2px; }
+.pubs-list .badge { display:inline-block; padding:0 .55rem; border-radius:99px; font-size:12px; font-weight:bold; background:#e3f5e1; color:#157a12; white-space:nowrap; }
+.pubs-list .badge.nom { background:#fff1cf; color:#8a5a00; }
+@media (max-width: 918px) { .intro, .jump, .pubs-list { margin-left:20px; margin-right:20px; } }

@@ -1,104 +1,113 @@
 <!DOCTYPE html>
-<!-- Website template by freewebsitetemplates.com -->
-<html>
+<html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<meta name="viewport" content="user-scalable=0, width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-	<title>Biresh's Website</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Research | Biresh Kumar Joardar</title>
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<link rel="stylesheet" type="text/css" href="css/mobile.css">
-	<script type='text/javascript' src='js/mobile.js'></script>
+	<link rel="stylesheet" type="text/css" href="css/custom.css">
+	<script type="text/javascript" src="js/mobile.js"></script>
 </head>
 <body>
 	<div id="header">
 		<h1><a href="index.html">Biresh Kumar Joardar <span>Assistant Professor</span></a></h1>
 		<ul id="navigation">
-			<li>
-				<a href="index.html">Home</a>
-			</li>
-			<li>
-				<a href="research.html">Research</a>
-			</li>
-			<li>
-				<a href="group.html">Mentoring</a>
-			</li>
-			<li>
-				<a href="teaching.html">Teaching</a>
-			</li>
-			<li>
-				<a href="other.html">Service</a>
-			</li>
-			<li>
-				<a href="award.html">Awards</a>
-			</li>
+			<li><a href="index.html">Home</a></li>
+			<li class="current"><a href="research.html">Research</a></li>
+			<li><a href="group.html">Mentoring</a></li>
+			<li><a href="teaching.html">Teaching</a></li>
+			<li><a href="other.html">Service</a></li>
+			<li><a href="award.html">Awards</a></li>
 		</ul>
 	</div>
+
 	<div id="body">
 		<h2>Research</h2>
+		<p class="intro">
+			Publications on reliable and trustworthy computing at the edge, newest first. A complete list is on my
+			<a href="https://scholar.google.com/citations?user=x4_uRSUAAAAJ&amp;hl=en" target="_blank" rel="noopener">Google Scholar page</a>.
+		</p>
+		<nav class="jump" aria-label="Publication types">
+			<a href="#chapters">Book chapters (2)</a>
+			<a href="#journals">Journals (19)</a>
+			<a href="#conferences">Conferences (29)</a>
+		</nav>
 
-		<div id="body">
-			<div>A complete list of my work is available on my <a href="https://scholar.google.com/citations?user=x4_uRSUAAAAJ&hl=en" target="_blank">google scholar page </a></div><br>
-			<h3>Book Chapter</h3>
-				  <p>
-				   <ol type="1">
-							<li><a href="https://link.springer.com/chapter/10.1007/978-3-031-39932-9_7" target="_blank">B.K. Joardar, J. R. Doppa, P. P. Pande, “Machine Learning for Heterogeneous Manycore Design, “Embedded MachineLearning for Cyber-Physical, IoT, and Edge Computing,” In: Pasricha, S., Shafique, M. (eds), Springer, Cham</a></li>						  
-							<li><a href="https://link.springer.com/chapter/10.1007/978-981-16-7487-7_4" target="_blank">Y. Ma, B. K. Joardar, P. P. Pande, A. Joshi, "Interconnect and Integration Technology", In: Aly, M.M.S., Chattopadhyay, A. (eds) Emerging Computing: From Devices to Systems. Computer Architecture and Design Methodologies. Springer, Singapore</a></li>
-					</ol> </p>
-				<br>
+		<div class="pubs-list">
+			<h3 id="chapters">Book chapters</h3>
+			<ol reversed>
+				<li><a href="https://link.springer.com/chapter/10.1007/978-3-031-39932-9_7" target="_blank" rel="noopener">B. K. Joardar, J. R. Doppa, P. P. Pande, “Machine Learning for Heterogeneous Manycore Design,” in <i>Embedded Machine Learning for Cyber-Physical, IoT, and Edge Computing</i>, S. Pasricha and M. Shafique (eds), Springer, Cham</a></li>
+				<li><a href="https://link.springer.com/chapter/10.1007/978-981-16-7487-7_4" target="_blank" rel="noopener">Y. Ma, B. K. Joardar, P. P. Pande, A. Joshi, “Interconnect and Integration Technology,” in <i>Emerging Computing: From Devices to Systems. Computer Architecture and Design Methodologies</i>, M. M. S. Aly and A. Chattopadhyay (eds), Springer, Singapore</a></li>
+			</ol>
 
-			<h3>Journal Publications</h3>
-				  <p>
-				   <ol type="1">
-						  <li><a href="https://dl.acm.org/doi/abs/10.1145/3656171" target="_blank">C. Ogbogu, B. K. Joardar, K. Chakrabarty, J. R. Doppa, and P. P. Pande. 2024. Data Pruning-enabled High Performance and Reliable Graph Neural Network Training on ReRAM-based Processing-in-Memory Accelerators. in ACM <i>Transactions on Design Automation Electronic Systems</i> 29, 5, Article 72 (September 2024), 29 <span style="color: #ff0000"><b>(Highlight paper)</b></span></a></li>
-						  <li><a href="https://ieeexplore.ieee.org/abstract/document/10596278/" target="_blank">A. Jaiswal, K. C. S. Shahana, S. Ravichandran, K. Adarsh, H. B. Bhat, B. K. Joardar, S. K. Mandal, "HALO:Communication-aware Heterogeneous 2.5D System for Energy-efficient LLM Execution at Edge," in IEEE <i>Journal on Emerging and Selected Topics in Circuits and Systems</i>, vol. 14, no. 3, pp. 425-439, Sept. 2024 <span style="color: #ff0000"><b>(Spotlight paper)</b></span> </a></li>
-						  <li><a href="https://ieeexplore.ieee.org/abstract/document/10459107/" target="_blank">C. -Y. Chen, B. K. Joardar, J. R. Doppa, P. P. Pande and K. Chakrabarty, "Mitigating Slow-to-Write Errors inMemristor-Mapped Graph Neural Networks Induced by Adversarial Attacks," in IEEE <i>Transactions on Computer-Aided Design of Integrated Circuits and Systems</i>, vol. 43, no. 8, pp. 2411-2425, Aug. 2024</a></li>						  
-						  <li><a href="https://ieeexplore.ieee.org/abstract/document/9965422/" target="_blank">B. K. Joardar, J. R. Doppa, H. Li, K. Chakrabarty and P. P. Pande, "ReaLPrune: ReRAM Crossbar-Aware Lottery Ticket Pruning for CNNs," in IEEE <i>Transactions on Emerging Topics in Computing</i>, vol. 11, no. 2, pp. 303-317, 2023</a></li>						  
-						  <li><a href="https://ieeexplore.ieee.org/abstract/document/9976042" target="_blank">C. Ogbogu, A. I. Arka, L. Pfromm, B. K. Joardar, J. R. Doppa, K. Chakrabarty, and P. P. Pande, "Accelerating Graph Neural Network Training on ReRAM-Based PIM Architectures via Graph and Model Pruning," in IEEE <i>Transactions on Computer-Aided Design of Integrated Circuits and Systems</i>, vol. 42, no. 8, pp. 2703-2716, Aug. 2023</a></li>
-						  <li><a href="https://ieeexplore.ieee.org/abstract/document/9891840" target="_blank">B. K. Joardar, T. K. Bletsch and K. Chakrabarty, "Machine Learning-Based Rowhammer Mitigation," in IEEE <i>Transactions on Computer-Aided Design of Integrated Circuits and Systems</i>, vol. 42, no. 5, pp. 1393-1405, May 2023</a></li>
-						  <li><a href="https://ieeexplore.ieee.org/abstract/document/9852763" target="_blank">C. Ogbogu, A. I. Arka, B. K. Joardar, J. R. Doppa, H. Li, K. Chakrabarty, P. P. Pande, "Accelerating Large-Scale Graph Neural Network Training on Crossbar Diet," in IEEE <i>Transactions on Computer-Aided Design of Integrated Circuits and Systems</i>, vol. 41, no. 11, pp. 3626-3637, Nov. 2022</a></li>
-						  <li><a href="https://dl.acm.org/doi/10.1145/3476986" target="_blank">B. K. Joardar, J. R. Doppa, H. Li, K. Chakrabarty and P. P. Pande, “Learning to Train CNNs on Faulty ReRAM-based Manycore Accelerators,” in ACM Transactions on Embedded Computing Systems (TECS), 2021 (as part of ESWEEK 2021).</a></li> 
-						  <li><a href="https://ieeexplore.ieee.org/abstract/document/9440544" target="_blank">B. K. Joardar, A. Deshwal, J. R. Doppa, P. P. Pande and K. Chakrabarty, "High-Throughput Training of Deep CNNs on ReRAM-based Heterogeneous Architectures via Optimized Normalization Layers," in IEEE <i>Transactions on Computer-Aided Design of Integrated Circuits and Systems</i>, 2021</a></li>  
-						  <li><a href="https://ieeexplore.ieee.org/abstract/document/9537904" target="_blank">A. I. Arka, B. K. Joardar, J. R. Doppa, P. P. Pande and K.Chakrabarty, "Performance and Accuracy Trade-offs for Training Graph Neural Networks on ReRAM-based Architectures," in IEEE Transactions on Very Large-Scale Integration (VLSI) Systems, 2021</a></li>
-						  <li><a href="https://dl.acm.org/doi/abs/10.1145/3424239" target="_blank">A. I. Arka, B. K. Joardar, R. G. Kim, D. H. Kim, J. R. Doppa and P. P. Pande, "HeM3D: Heterogeneous Manycore Architecture Based on Monolithic 3D Vertical Integration," in ACM <i>Transactions on Des. Autom. Electron. Syst</i>, 26, 2, Article 16, 2021</a></li>
-						  <li><a href="https://ieeexplore.ieee.org/abstract/document/9153831" target="_blank">B. K. Joardar, J. R. Doppa, P. P. Pande, H. Li and K. Chakrabarty, "AccuReD: High Accuracy Training of CNNs on ReRAM/GPU Heterogeneous 3D Architecture," in IEEE <i>Transactions on Computer-Aided Design of Integrated Circuits and Systems</i>, vol. 40, no. 5, pp. 971-984, 2021</a></li>
-						  <li><a href="https://dl.acm.org/doi/abs/10.1145/3358206" target="_blank">A. Deshwal, N. K. Jayakodi, B. K. Joardar, J. R. Doppa, and P. P. Pande, “MOOS: A Multi-Objective Design Space Exploration and Optimization Framework for NoC Enabled Manycore Systems,” in ACM <i>Transactions on Embed. Comput. Syst</i>, 18, 5s, Article 77, 2019</a></li>
-						  <li><a href="https://ieeexplore.ieee.org/abstract/document/8585068/" target="_blank"> B. K. Joardar, R. G. Kim, J. R. Doppa, P. P. Pande, D. Marculescu and R. Marculescu, “Learning-based Application-Agnostic 3D NoC Design for Heterogeneous Manycore Systems," in IEEE <i>Transactions on Computers</i>, vol. 68, no. 6, pp. 852-866, 2019</a></li>
-				  </ol> </p>
-				<br>
-				  
-			<h3>Conference Publications</h3>
-				<div>
-					<ol type="1">
-						  <li><a href="https://ieeexplore.ieee.org/abstract/document/10546762" target="_blank">P. Dhingra, C. Ogbogu, B. K. Joardar, J. R. Doppa, A. Kalyanaraman and P. P. Pande, "FARe: Fault-Aware GNN Training on ReRAM-Based PIM Accelerators," 2024 Design, Automation & Test in Europe Conference & Exhibition (DATE), Valencia, Spain, 2024, pp. 1-6</a></li>
-						  <li><a href="https://ieeexplore.ieee.org/abstract/document/10244258" target="_blank">C. Ogbogu,M. Soumen, B. K. Joardar, J. R. Doppa, D. Heo, K. Chakrabarty, P. P. Pande, "Energy-Efficient ReRAMBased ML Training via Mixed Pruning and Reconfigurable ADC," 2023 IEEE/ACM International Symposium on Low Power Electronics and Design (ISLPED), Vienna, Austria, 2023, pp. 1-6</a></li>
-						  <li><a href="https://ieeexplore.ieee.org/abstract/document/10351076/" target="_blank">E. Ortega, T. Bletsch, B. Joardar, J. Talukdar, W. Paik and K. Chakrabarty, "Simply-Track-and-Refresh: Efficient and Scalable Rowhammer Mitigation," 2023 IEEE International Test Conference (ITC), CA, USA, 2023, pp. 340-349</a></li>
-						  <li><a href="https://ieeexplore.ieee.org/abstract/document/10174062" target="_blank">C. Y. Chen, B. K. Joardar, J. Rao Doppa, P. P. Pande and K. Chakrabarty, "Attacking Memristor-Mapped Graph Neural Network by Inducing Slow-to-Write Errors," 2023 IEEE European Test Symposium (ETS), Venezia, Italy, 2023, pp. 1-4</a></li>						
-						  <li><a href="https://ieeexplore.ieee.org/abstract/document/10137238" target="_blank">C. H. Tung, B. K. Joardar, P. P. Pande, J. R. Doppa, H. H. Li and K. Chakrabarty, "Dynamic Task Remapping for Reliable CNN Training on ReRAM Crossbars," 2023 Design, Automation & Test in Europe Conference & Exhibition (DATE), Antwerp, Belgium, 2023, pp. 1-6,</a></li>						
-						  <li><a href="https://ieeexplore.ieee.org/abstract/document/10136903" target="_blank">B. K. Joardar and K. Chakrabarty, "Attacking ReRAM-based Architectures using Repeated Writes," 2023 Design, Automation & Test in Europe Conference & Exhibition (DATE), Antwerp, Belgium, 2023, pp. 1-6</a></li>						
-						  <li><a href="https://dl.acm.org/doi/abs/10.1145/3508352.3561120" target="_blank">B. K. Joardar, A. I. Arka, J. R. Doppa, P. P. Pande, "Fault-Tolerant Deep Learning Using Regularization", In 41st International Conference on Computer-Aided Design (ICCAD '22), New York, NY, USA, Article 159, 1–6.</a></li>
-						  <li><a href="https://ieeexplore.ieee.org/abstract/document/9806297" target="_blank">B. K. Joardar, J. Rao Doppa, P. P. Pande and K. Chakrabarty, "NoC-enabled 3D Heterogeneous Manycore Systems for Big-Data Applications," 2022 23rd International Symposium on Quality Electronic Design (ISQED), Santa Clara, CA, USA, 2022, pp. 1-6.</a></li>						  
-						  <li><a href="https://ieeexplore.ieee.org/abstract/document/9774703" target="_blank">B. K. Joardar, T. K. Bletsch, and K. Chakrabarty, “Learning to Mitigate Rowhammer Attacks,” in Design, Automation & Test in Europe Conference & Exhibition (DATE), 2022.</a></li>
-						  <li><a href="https://ieeexplore.ieee.org/abstract/document/9643559" target="_blank">B. K. Joardar, J. R. Doppa, P. P. Pande, H. Li and K. Chakrabarty, “Processing-in-Memory enabled Heterogeneous Manycore Architectures for Deep Learning: From CNNs to GNNs,” in International Conference on Computer Aided Design (ICCAD), 2021.</a></li> 
-						  <li><a href="https://ieeexplore.ieee.org/abstract/document/9643511" target="_blank">A. I. Arka, B. K. Joardar, J. R. Doppa, P. P. Pande and K. Chakrabarty, “DARe: DropLayer-Aware Manycore ReRAM Architecture for Training Graph Neural Networks,” in International Conference on Computer Aided Design (ICCAD), 2021.</a></li> 
-						  <li><a href="https://arxiv.org/pdf/2109.05437" target="_blank">X. Yang, S. Belakaria, B. K. Joardar, H. Yang, J. R. Doppa, P. P. Pande, K. Chakrabarty and H. Li, “Multi-Objective Optimization of ReRAM Crossbars for Robust DNN Inferencing under Stochastic Noise,” in International Conference on Computer Aided Design (ICCAD), 2021.</a></li> 
-						  <li><a href="https://ieeexplore.ieee.org/abstract/document/9474219" target="_blank">B. K. Joardar, A. I. Arka, J. R. Doppa and P. P. Pande, “3D++: Unlocking the Next Generation of High-Performance and Energy-Efficient Architectures using M3D Integration,” in Design, Automation & Test in Europe Conference & Exhibition (DATE), Grenoble, France, 2021.</a></li> 
-						  <li><a href="https://ieeexplore.ieee.org/abstract/document/9473949" target="_blank">A. I. Arka, B. K. Joardar, J. R. Doppa, P. P. Pande and K. Chakrabarty, “ReGraphX: NoC-enabled 3D Heterogeneous ReRAM Architecture for Training Graph Neural Networks,” in Design, Automation & Test in Europe Conference & Exhibition (DATE), Grenoble, France, 2021 <span style="color: #ff0000"><b>(Best Paper Nomination)</b></span>.</a></li> 
-						  <li><a href="https://ieeexplore.ieee.org/abstract/document/9116273" target="_blank">B. K. Joardar, N. K. Jayakodi, J. R. Doppa, H. Li, P. P. Pande and K. Chakrabarty, “GRAMARCH: A GPU-ReRAM based Heterogeneous Architecture for Neural Image Segmentation,” in Proceedings of 23rd IEEE/ACM Design, Automation & Test in Europe Conference & Exhibition (DATE), Grenoble, France, 2020 <span style="color: #ff0000"><b>(Best Paper Nomination)</b></span>.</a></li>  
-						  <li><a href="https://dl.acm.org/doi/abs/10.1145/3313231.3352367" target="_blank">B. K. Joardar, P. Ghosh, P. P. Pande, A. Kalyanaraman and S. Krishnamoorthy, “NoC-enabled Software/Hardware Co-Design Framework for Accelerating k-mer Counting,” International Symposium on Networks-on-Chip (NOCS '19), New York, NY, USA, 2019 <span style="color: #ff0000"><b>(Best Paper Award)</b></span>.</a></li> 
-						  <li><a href="https://dl.acm.org/doi/abs/10.1145/3349567.3357376" target="_blank">P. Bogdan, F. Chen, A. Deshwal, J. R. Doppa, B. K. Joardar, H. Li, S. Nazarian, L. Song, and Y. Xiao, “Taming extreme heterogeneity via machine learning based design of autonomous manycore systems,” in Proceedings of the International Conference on Hardware/Software Codesign and System Synthesis Companion (CODES/ISSS), 2019</a></li>
-						  <li><a href="https://ieeexplore.ieee.org/abstract/document/9142057" target="_blank">B. K. Joardar, A. Deshwal, J. R. Doppa and P. P. Pande, "A Machine Learning Framework for Multi-Objective Design Space Exploration and Optimization of Manycore Systems," 2019 ACM/IEEE 1st Workshop on Machine Learning for CAD (MLCAD), Canmore, AB, Canada, 2019, pp. 1-6</a></li>
-						 <li><a href="https://ieeexplore.ieee.org/abstract/document/8714832" target="_blank">B. K. Joardar, R. G. Kim, J. R. Doppa, P. P. Pande, “Design and Optimization of Heterogeneous Manycore Systems enabled by Emerging Interconnect Technologies: Promises and Challenges,” Proceedings of 22nd IEEE/ACM Design, Automation & Test in Europe Conference & Exhibition (DATE), Florence, Italy, 2019</a></li>
-						 <li><a href="https://ieeexplore.ieee.org/abstract/document/8714802" target="_blank">B. K. Joardar, B. Li, J. R. Doppa, H. Li, P. P. Pande and K. Chakrabarty, “REGENT: A Heterogeneous ReRAM/GPU-based Architecture Enabled by NoC for Training CNNs,” Proceedings of 22nd IEEE/ACM Design, Automation & Test in Europe Conference & Exhibition (DATE), Florence, Italy, 2019</a></li>
-						 <li><a href="https://ieeexplore.ieee.org/abstract/document/8587640" target="_blank">B. K. Joardar, J. R. Doppa, P. P. Pande, D. Marculescu and R. Marculescu, “Hybrid On-Chip Communication Architectures for Heterogeneous Manycore Systems,” Proceedings of 37th IEEE/ACM International Conference on Computer-Aided Design (ICCAD), 2018</a></li>
-						  <li><a href="https://ieeexplore.ieee.org/abstract/document/8342223/" target="_blank">B. K. Joardar, K. Duraisamy and P. P. Pande, "High performance collective communication-aware 3D Network-on-Chip architectures," 2018 Design, Automation & Test in Europe Conference & Exhibition (DATE), Dresden, Germany, 2018, pp. 1351-1356</a></li>
-						 <li><a href="https://ieeexplore.ieee.org/abstract/document/8368598" target="_blank">B. K. Joardar, W. Choi, R. G. Kim, J. R. Doppa, P. P. Pande, D. Marculescu and R. Marculescu, "3D NoC-Enabled Heterogeneous Manycore Architectures for Accelerating CNN Training: Performance and Thermal Trade-offs," In Proceedings of the Eleventh IEEE/ACM International Symposium on Networks-on-Chip (NOCS '17), New York, NY, USA, 2017, Article 18 </a></li>
-						  <li><a href="https://dl.acm.org/doi/10.5555/2856229.2856244" target="_blank">S. Das, S. Chatterjee, B. K. Joardar, A. Mukherjee, and M. K. Naskar, "Physical channel modeling by calcium signaling in molecular communication based nanonetwork," In Proceedings of the 10th EAI International Conference on Body Area Networks (BodyNets ’15), Brussels, Belgium, pp. 71–77, 2015</a></li>
-					</ol> 
-				</div>  
+			<h3 id="journals">Journal publications</h3>
+			<ol reversed>
+				<li>M. Heidary, B. K. Joardar, “Attacking AI Accelerators via Arithmetic Properties,” in <i>Springer Nature</i>, 2026</li>
+				<li>A. R. Bommana, F. Firouzi, C. Ogbogu, B. K. Joardar, J. R. Doppa, P. P. Pande, and K. Chakrabarty, “SEC-CiM+: Selective and Reconfigurable Error Compensation for ReRAM-based Compute-in-Memory,” in ACM <i>Transactions on Design Automation of Electronic Systems</i>, Just Accepted (May 2026)</li>
+				<li>S. S. KC, S. N. Bhat, S. Ravichandran, B. K. Joardar and S. K. Mandal, “InDenT: An Energy-Efficient 2.5D System With Heterogeneous Reconfigurable Interconnect for Dense Foundational Models,” in IEEE <i>Transactions on Circuits and Systems for Artificial Intelligence</i>, vol. 2, no. 4, pp. 315-325, Dec. 2025</li>
+				<li>G. Narang, C. Ogbogu, B. K. Joardar, J. R. Doppa, K. Chakrabarty, and P. P. Pande, “GINA: Exploiting Graph Neural Network Layer Features for Energy Efficient Inferencing in NVM-based PIM Accelerators,” in ACM <i>Transactions on Embedded Computing Systems</i>, 24, 5s, Article 116 (September 2025)</li>
+				<li>P. Edara, S. Banerjee, B. K. Joardar, “Localization of Data Compromised by Hardware Attacks in Machine Learning enabled Cyber-Physical Edge Devices,” in ACM <i>Transactions on Cyber-Physical Systems</i>, 9, 3, Article 27 (July 2025)</li>
+				<li><a href="https://dl.acm.org/doi/abs/10.1145/3656171" target="_blank" rel="noopener">C. Ogbogu, B. K. Joardar, K. Chakrabarty, J. R. Doppa, and P. P. Pande, “Data Pruning-enabled High Performance and Reliable Graph Neural Network Training on ReRAM-based Processing-in-Memory Accelerators,” in ACM <i>Transactions on Design Automation of Electronic Systems</i>, 29, 5, Article 72, 29 pages, Sept. 2024 <span class="badge">Highlight paper</span></a></li>
+				<li><a href="https://ieeexplore.ieee.org/abstract/document/10596278/" target="_blank" rel="noopener">A. Jaiswal, K. C. S. Shahana, S. Ravichandran, K. Adarsh, H. B. Bhat, B. K. Joardar, S. K. Mandal, “HALO: Communication-aware Heterogeneous 2.5D System for Energy-efficient LLM Execution at Edge,” in IEEE <i>Journal on Emerging and Selected Topics in Circuits and Systems</i>, vol. 14, no. 3, pp. 425-439, Sept. 2024 <span class="badge">Spotlight paper</span></a></li>
+				<li><a href="https://ieeexplore.ieee.org/abstract/document/10459107/" target="_blank" rel="noopener">C.-Y. Chen, B. K. Joardar, J. R. Doppa, P. P. Pande and K. Chakrabarty, “Mitigating Slow-to-Write Errors in Memristor-Mapped Graph Neural Networks Induced by Adversarial Attacks,” in IEEE <i>Transactions on Computer-Aided Design of Integrated Circuits and Systems</i>, vol. 43, no. 8, pp. 2411-2425, Aug. 2024</a></li>
+				<li><a href="https://ieeexplore.ieee.org/abstract/document/9965422/" target="_blank" rel="noopener">B. K. Joardar, J. R. Doppa, H. Li, K. Chakrabarty and P. P. Pande, “ReaLPrune: ReRAM Crossbar-Aware Lottery Ticket Pruning for CNNs,” in IEEE <i>Transactions on Emerging Topics in Computing</i>, vol. 11, no. 2, pp. 303-317, 2023</a></li>
+				<li><a href="https://ieeexplore.ieee.org/abstract/document/9976042" target="_blank" rel="noopener">C. Ogbogu, A. I. Arka, L. Pfromm, B. K. Joardar, J. R. Doppa, K. Chakrabarty, and P. P. Pande, “Accelerating Graph Neural Network Training on ReRAM-Based PIM Architectures via Graph and Model Pruning,” in IEEE <i>Transactions on Computer-Aided Design of Integrated Circuits and Systems</i>, vol. 42, no. 8, pp. 2703-2716, Aug. 2023</a></li>
+				<li><a href="https://ieeexplore.ieee.org/abstract/document/9891840" target="_blank" rel="noopener">B. K. Joardar, T. K. Bletsch and K. Chakrabarty, “Machine Learning-Based Rowhammer Mitigation,” in IEEE <i>Transactions on Computer-Aided Design of Integrated Circuits and Systems</i>, vol. 42, no. 5, pp. 1393-1405, May 2023</a></li>
+				<li><a href="https://ieeexplore.ieee.org/abstract/document/9852763" target="_blank" rel="noopener">C. Ogbogu, A. I. Arka, B. K. Joardar, J. R. Doppa, H. Li, K. Chakrabarty, P. P. Pande, “Accelerating Large-Scale Graph Neural Network Training on Crossbar Diet,” in IEEE <i>Transactions on Computer-Aided Design of Integrated Circuits and Systems</i>, vol. 41, no. 11, pp. 3626-3637, Nov. 2022</a></li>
+				<li><a href="https://ieeexplore.ieee.org/abstract/document/9440544" target="_blank" rel="noopener">B. K. Joardar, A. Deshwal, J. R. Doppa, P. P. Pande and K. Chakrabarty, “High-Throughput Training of Deep CNNs on ReRAM-based Heterogeneous Architectures via Optimized Normalization Layers,” in IEEE <i>Transactions on Computer-Aided Design of Integrated Circuits and Systems</i>, vol. 41, no. 5, pp. 1537-1549, May 2022</a></li>
+				<li><a href="https://dl.acm.org/doi/10.1145/3476986" target="_blank" rel="noopener">B. K. Joardar, J. R. Doppa, H. Li, K. Chakrabarty and P. P. Pande, “Learning to Train CNNs on Faulty ReRAM-based Manycore Accelerators,” in ACM <i>Transactions on Embedded Computing Systems</i>, 20, 5s, Article 55, Aug. 2021 (as part of ESWEEK 2021)</a></li>
+				<li><a href="https://ieeexplore.ieee.org/abstract/document/9537904" target="_blank" rel="noopener">A. I. Arka, B. K. Joardar, J. R. Doppa, P. P. Pande and K. Chakrabarty, “Performance and Accuracy Trade-offs for Training Graph Neural Networks on ReRAM-based Architectures,” in IEEE <i>Transactions on Very Large Scale Integration (VLSI) Systems</i>, vol. 29, no. 10, pp. 1743-1756, Oct. 2021</a></li>
+				<li><a href="https://dl.acm.org/doi/abs/10.1145/3424239" target="_blank" rel="noopener">A. I. Arka, B. K. Joardar, R. G. Kim, D. H. Kim, J. R. Doppa and P. P. Pande, “HeM3D: Heterogeneous Manycore Architecture Based on Monolithic 3D Vertical Integration,” in ACM <i>Transactions on Design Automation of Electronic Systems</i>, 26, 2, Article 16, 2021</a></li>
+				<li><a href="https://ieeexplore.ieee.org/abstract/document/9153831" target="_blank" rel="noopener">B. K. Joardar, J. R. Doppa, P. P. Pande, H. Li and K. Chakrabarty, “AccuReD: High Accuracy Training of CNNs on ReRAM/GPU Heterogeneous 3D Architecture,” in IEEE <i>Transactions on Computer-Aided Design of Integrated Circuits and Systems</i>, vol. 40, no. 5, pp. 971-984, 2021</a></li>
+				<li><a href="https://dl.acm.org/doi/abs/10.1145/3358206" target="_blank" rel="noopener">A. Deshwal, N. K. Jayakodi, B. K. Joardar, J. R. Doppa, and P. P. Pande, “MOOS: A Multi-Objective Design Space Exploration and Optimization Framework for NoC Enabled Manycore Systems,” in ACM <i>Transactions on Embedded Computing Systems</i>, 18, 5s, Article 77, 2019</a></li>
+				<li><a href="https://ieeexplore.ieee.org/abstract/document/8585068/" target="_blank" rel="noopener">B. K. Joardar, R. G. Kim, J. R. Doppa, P. P. Pande, D. Marculescu and R. Marculescu, “Learning-based Application-Agnostic 3D NoC Design for Heterogeneous Manycore Systems,” in IEEE <i>Transactions on Computers</i>, vol. 68, no. 6, pp. 852-866, 2019</a></li>
+			</ol>
+
+			<h3 id="conferences">Conference publications</h3>
+			<ol reversed>
+				<li>P. Edara, B. K. Joardar, Z. T. Tisha, U. Guin, H. U. Rahman and B. Ray, “Security Vulnerabilities of Semiconductor Memories,” 2026 IEEE 44th VLSI Test Symposium (VTS), Napa, CA, USA, 2026, pp. 1-11</li>
+				<li>P. Edara, S. Duttala, L. Wang, S. K. Mandal and B. K. Joardar, “PROOF: Predetermined Signature-Based On-Chip Online Rowhammer Bit-Flip Detection,” 2025 First International Conference on Intelligent Computing and Systems at the Edge (ICEdge), Bangalore, India, 2025, pp. 1-7</li>
+				<li>S. S. K. C, S. K. Mandal and B. K. Joardar, “Acceleration of Large Language Models with Emerging Compute and Communication Technology,” 2025 IEEE International Conference on Omni-layer Intelligent Systems (COINS), Madison, WI, USA, 2025, pp. 1-6</li>
+				<li>M. Heidary, B. K. Joardar, “Aging Attack on Systolic Array-based AI Accelerators via NBTI-Induced Aging,” International Symposium on Quality Electronic Design (ISQED), 2025</li>
+				<li><a href="https://doi.org/10.1109/DCAS61159.2024.10539864" target="_blank" rel="noopener">M. Heidary and B. K. Joardar, “Hardware Attacks on ReRAM-Based AI Accelerators,” 2024 IEEE 17th Dallas Circuits and Systems Conference (DCAS), TX, USA, 2024, pp. 1-4</a></li>
+				<li><a href="https://ieeexplore.ieee.org/abstract/document/10546762" target="_blank" rel="noopener">P. Dhingra, C. Ogbogu, B. K. Joardar, J. R. Doppa, A. Kalyanaraman and P. P. Pande, “FARe: Fault-Aware GNN Training on ReRAM-Based PIM Accelerators,” 2024 Design, Automation &amp; Test in Europe Conference &amp; Exhibition (DATE), Valencia, Spain, 2024, pp. 1-6</a></li>
+				<li><a href="https://ieeexplore.ieee.org/abstract/document/10244258" target="_blank" rel="noopener">C. Ogbogu, M. Soumen, B. K. Joardar, J. R. Doppa, D. Heo, K. Chakrabarty, P. P. Pande, “Energy-Efficient ReRAM-Based ML Training via Mixed Pruning and Reconfigurable ADC,” 2023 IEEE/ACM International Symposium on Low Power Electronics and Design (ISLPED), Vienna, Austria, 2023, pp. 1-6</a></li>
+				<li><a href="https://ieeexplore.ieee.org/abstract/document/10351076/" target="_blank" rel="noopener">E. Ortega, T. Bletsch, B. Joardar, J. Talukdar, W. Paik and K. Chakrabarty, “Simply-Track-and-Refresh: Efficient and Scalable Rowhammer Mitigation,” 2023 IEEE International Test Conference (ITC), CA, USA, 2023, pp. 340-349</a></li>
+				<li><a href="https://ieeexplore.ieee.org/abstract/document/10174062" target="_blank" rel="noopener">C. Y. Chen, B. K. Joardar, J. R. Doppa, P. P. Pande and K. Chakrabarty, “Attacking Memristor-Mapped Graph Neural Network by Inducing Slow-to-Write Errors,” 2023 IEEE European Test Symposium (ETS), Venezia, Italy, 2023, pp. 1-4</a></li>
+				<li><a href="https://ieeexplore.ieee.org/abstract/document/10137238" target="_blank" rel="noopener">C. H. Tung, B. K. Joardar, P. P. Pande, J. R. Doppa, H. H. Li and K. Chakrabarty, “Dynamic Task Remapping for Reliable CNN Training on ReRAM Crossbars,” 2023 Design, Automation &amp; Test in Europe Conference &amp; Exhibition (DATE), Antwerp, Belgium, 2023, pp. 1-6</a></li>
+				<li><a href="https://ieeexplore.ieee.org/abstract/document/10136903" target="_blank" rel="noopener">B. K. Joardar and K. Chakrabarty, “Attacking ReRAM-based Architectures using Repeated Writes,” 2023 Design, Automation &amp; Test in Europe Conference &amp; Exhibition (DATE), Antwerp, Belgium, 2023, pp. 1-6</a></li>
+				<li><a href="https://dl.acm.org/doi/abs/10.1145/3508352.3561120" target="_blank" rel="noopener">B. K. Joardar, A. I. Arka, J. R. Doppa, P. P. Pande, “Fault-Tolerant Deep Learning Using Regularization,” 41st International Conference on Computer-Aided Design (ICCAD '22), New York, NY, USA, Article 159, 1-6, 2022</a></li>
+				<li><a href="https://ieeexplore.ieee.org/abstract/document/9806297" target="_blank" rel="noopener">B. K. Joardar, J. R. Doppa, P. P. Pande and K. Chakrabarty, “NoC-enabled 3D Heterogeneous Manycore Systems for Big-Data Applications,” 2022 23rd International Symposium on Quality Electronic Design (ISQED), Santa Clara, CA, USA, 2022, pp. 1-6</a></li>
+				<li><a href="https://ieeexplore.ieee.org/abstract/document/9774703" target="_blank" rel="noopener">B. K. Joardar, T. K. Bletsch, and K. Chakrabarty, “Learning to Mitigate Rowhammer Attacks,” Design, Automation &amp; Test in Europe Conference &amp; Exhibition (DATE), 2022, pp. 564-567</a></li>
+				<li><a href="https://ieeexplore.ieee.org/abstract/document/9643559" target="_blank" rel="noopener">B. K. Joardar, J. R. Doppa, P. P. Pande, H. Li and K. Chakrabarty, “Processing-in-Memory enabled Heterogeneous Manycore Architectures for Deep Learning: From CNNs to GNNs,” International Conference on Computer Aided Design (ICCAD), 2021</a></li>
+				<li><a href="https://ieeexplore.ieee.org/abstract/document/9643511" target="_blank" rel="noopener">A. I. Arka, B. K. Joardar, J. R. Doppa, P. P. Pande and K. Chakrabarty, “DARe: DropLayer-Aware Manycore ReRAM Architecture for Training Graph Neural Networks,” International Conference on Computer Aided Design (ICCAD), 2021</a></li>
+				<li><a href="https://arxiv.org/pdf/2109.05437" target="_blank" rel="noopener">X. Yang, S. Belakaria, B. K. Joardar, H. Yang, J. R. Doppa, P. P. Pande, K. Chakrabarty and H. Li, “Multi-Objective Optimization of ReRAM Crossbars for Robust DNN Inferencing under Stochastic Noise,” International Conference on Computer Aided Design (ICCAD), 2021</a></li>
+				<li><a href="https://ieeexplore.ieee.org/abstract/document/9474219" target="_blank" rel="noopener">B. K. Joardar, A. I. Arka, J. R. Doppa and P. P. Pande, “3D++: Unlocking the Next Generation of High-Performance and Energy-Efficient Architectures using M3D Integration,” Design, Automation &amp; Test in Europe Conference &amp; Exhibition (DATE), Grenoble, France, 2021</a></li>
+				<li><a href="https://ieeexplore.ieee.org/abstract/document/9473949" target="_blank" rel="noopener">A. I. Arka, B. K. Joardar, J. R. Doppa, P. P. Pande and K. Chakrabarty, “ReGraphX: NoC-enabled 3D Heterogeneous ReRAM Architecture for Training Graph Neural Networks,” Design, Automation &amp; Test in Europe Conference &amp; Exhibition (DATE), Grenoble, France, 2021 <span class="badge nom">Best Paper Nomination</span></a></li>
+				<li><a href="https://ieeexplore.ieee.org/abstract/document/9116273" target="_blank" rel="noopener">B. K. Joardar, N. K. Jayakodi, J. R. Doppa, H. Li, P. P. Pande and K. Chakrabarty, “GRAMARCH: A GPU-ReRAM based Heterogeneous Architecture for Neural Image Segmentation,” 23rd IEEE/ACM Design, Automation &amp; Test in Europe Conference &amp; Exhibition (DATE), Grenoble, France, 2020 <span class="badge nom">Best Paper Nomination</span></a></li>
+				<li><a href="https://dl.acm.org/doi/abs/10.1145/3313231.3352367" target="_blank" rel="noopener">B. K. Joardar, P. Ghosh, P. P. Pande, A. Kalyanaraman and S. Krishnamoorthy, “NoC-enabled Software/Hardware Co-Design Framework for Accelerating k-mer Counting,” International Symposium on Networks-on-Chip (NOCS '19), New York, NY, USA, 2019 <span class="badge">Best Paper Award</span></a></li>
+				<li><a href="https://dl.acm.org/doi/abs/10.1145/3349567.3357376" target="_blank" rel="noopener">P. Bogdan, F. Chen, A. Deshwal, J. R. Doppa, B. K. Joardar, H. Li, S. Nazarian, L. Song, and Y. Xiao, “Taming extreme heterogeneity via machine learning based design of autonomous manycore systems,” International Conference on Hardware/Software Codesign and System Synthesis Companion (CODES/ISSS), 2019</a></li>
+				<li><a href="https://ieeexplore.ieee.org/abstract/document/9142057" target="_blank" rel="noopener">B. K. Joardar, A. Deshwal, J. R. Doppa and P. P. Pande, “A Machine Learning Framework for Multi-Objective Design Space Exploration and Optimization of Manycore Systems,” 2019 ACM/IEEE 1st Workshop on Machine Learning for CAD (MLCAD), Canmore, AB, Canada, 2019, pp. 1-6</a></li>
+				<li><a href="https://ieeexplore.ieee.org/abstract/document/8714832" target="_blank" rel="noopener">B. K. Joardar, R. G. Kim, J. R. Doppa, P. P. Pande, “Design and Optimization of Heterogeneous Manycore Systems enabled by Emerging Interconnect Technologies: Promises and Challenges,” 22nd IEEE/ACM Design, Automation &amp; Test in Europe Conference &amp; Exhibition (DATE), Florence, Italy, 2019</a></li>
+				<li><a href="https://ieeexplore.ieee.org/abstract/document/8714802" target="_blank" rel="noopener">B. K. Joardar, B. Li, J. R. Doppa, H. Li, P. P. Pande and K. Chakrabarty, “REGENT: A Heterogeneous ReRAM/GPU-based Architecture Enabled by NoC for Training CNNs,” 22nd IEEE/ACM Design, Automation &amp; Test in Europe Conference &amp; Exhibition (DATE), Florence, Italy, 2019</a></li>
+				<li><a href="https://ieeexplore.ieee.org/abstract/document/8587640" target="_blank" rel="noopener">B. K. Joardar, J. R. Doppa, P. P. Pande, D. Marculescu and R. Marculescu, “Hybrid On-Chip Communication Architectures for Heterogeneous Manycore Systems,” 37th IEEE/ACM International Conference on Computer-Aided Design (ICCAD), 2018</a></li>
+				<li><a href="https://ieeexplore.ieee.org/abstract/document/8342223/" target="_blank" rel="noopener">B. K. Joardar, K. Duraisamy and P. P. Pande, “High performance collective communication-aware 3D Network-on-Chip architectures,” 2018 Design, Automation &amp; Test in Europe Conference &amp; Exhibition (DATE), Dresden, Germany, 2018, pp. 1351-1356</a></li>
+				<li><a href="https://ieeexplore.ieee.org/abstract/document/8368598" target="_blank" rel="noopener">B. K. Joardar, W. Choi, R. G. Kim, J. R. Doppa, P. P. Pande, D. Marculescu and R. Marculescu, “3D NoC-Enabled Heterogeneous Manycore Architectures for Accelerating CNN Training: Performance and Thermal Trade-offs,” 11th IEEE/ACM International Symposium on Networks-on-Chip (NOCS '17), New York, NY, USA, 2017, Article 18</a></li>
+				<li><a href="https://dl.acm.org/doi/10.5555/2856229.2856244" target="_blank" rel="noopener">S. Das, S. Chatterjee, B. K. Joardar, A. Mukherjee, and M. K. Naskar, “Physical channel modeling by calcium signaling in molecular communication based nanonetwork,” 10th EAI International Conference on Body Area Networks (BodyNets '15), Brussels, Belgium, pp. 71-77, 2015</a></li>
+			</ol>
 		</div>
 	</div>
+
 	<div id="footer">
-		<a href="https://scholar.google.com/citations?user=x4_uRSUAAAAJ&hl=en" target="blank_"><img src="images/icon-gscholar.png"></img></a><a href="https://www.linkedin.com/in/bkjoardar/" target="blank_"><img src="images/icon-linkedln.png"></img></a>
+		<a href="https://scholar.google.com/citations?user=x4_uRSUAAAAJ&amp;hl=en" target="_blank" rel="noopener"><img src="images/icon-gscholar.png" alt="Google Scholar"></a><a href="https://www.linkedin.com/in/bkjoardar/" target="_blank" rel="noopener"><img src="images/icon-linkedln.png" alt="LinkedIn"></a>
 	</div>
+
+	<script>
+		// Bold the site owner's name in every citation.
+		document.querySelectorAll('.pubs-list li').forEach(function (li) {
+			li.innerHTML = li.innerHTML.replace(/\bB\. ?(?:K\. )?Joardar\b/g, '<b>$&</b>');
+		});
+	</script>
 </body>
 </html>
