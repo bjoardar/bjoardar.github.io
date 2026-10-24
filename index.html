@@ -1,164 +1,108 @@
 <!DOCTYPE html>
-<!-- Website template by freewebsitetemplates.com -->
-<html>
+<html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<meta name="viewport" content="user-scalable=0, width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-	<title>Biresh's Website</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="Biresh Kumar Joardar, Assistant Professor at the University of Houston. Research on reliable and trustworthy computing at the edge.">
+	<title>Biresh Kumar Joardar | University of Houston</title>
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<link rel="stylesheet" type="text/css" href="css/mobile.css">
-	<script type='text/javascript' src='js/mobile.js'></script>
+	<link rel="stylesheet" type="text/css" href="css/custom.css">
+	<script type="text/javascript" src="js/mobile.js"></script>
 </head>
 <body>
 	<div id="header">
 		<h1><a href="index.html">Biresh Kumar Joardar <span>Assistant Professor</span></a></h1>
 		<ul id="navigation">
-			<li>
-				<a href="index.html">Home</a>
-			</li>
-			<li>
-				<a href="research.html">Research</a>
-			</li>
-			<li>
-				<a href="group.html">Mentoring</a>
-			</li>
-			<li>
-				<a href="teaching.html">Teaching</a>
-			</li>
-			<li>
-				<a href="other.html">Service</a>
-			</li>
-			<li>
-				<a href="award.html">Awards</a>
-			</li>
+			<li class="current"><a href="index.html">Home</a></li>
+			<li><a href="research.html">Research</a></li>
+			<li><a href="group.html">Mentoring</a></li>
+			<li><a href="teaching.html">Teaching</a></li>
+			<li><a href="other.html">Service</a></li>
+			<li><a href="award.html">Awards</a></li>
 		</ul>
 	</div>
+
 	<div id="body">
-		<img src="images/me.png" alt="me" class="figure">
+		<img src="images/me.png" alt="Portrait of Biresh Kumar Joardar" class="figure">
 		<h2>About Me</h2>
-		<div>
-			<div>
-				<p>
-					I am an Assistant Professor at the University of Houston, where I have been a faculty member since 2022. 
-					My research focuses on reliable and trustworthy computing at the edge, with an emphasis on building resilient 
-					and dependable computing systems. I am a recipient of the NSF CAREER Award for my research on Ad-Hoc Cloudless AI.
-					I have also received the Teaching Excellence Award from the University of Houston in recognition of my contributions to teaching and student learning.
-					
-					Previously, I was a Postdoc (NSF CI-Fellow) at Duke University with Dr. Krishnendu Chakrabarty. 
-					I did my PhD from Washington State University where I was advised by Dr. Partha Pratim Pande 
-					and Dr. Janardhan Rao Doppa.  
-					You can find my CV <a href="Biresh-Joardar-CV.pdf" target="_blank">here</a>.
-					<br>
-				
-					My current research focuses on reliable and trustworthy computing at the edge, spanning hardware, systems, and AI. 
-					I develop techniques to make resource-constrained and distributed computing systems more resilient to hardware 
-					failures, security threats, and unreliable operating environments, with a particular interest in enabling 
-					trustworthy AI beyond the cloud. 
-					
-					A complete list of my work is available on my <a href="https://scholar.google.com/citations?user=x4_uRSUAAAAJ&hl=en" target="_blank">google scholar page. </a>
-					Following are some of my research areas (click to expand).
 
-		<!DOCTYPE html>
-		<html>
-		<head>
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<style>
-		.collapsible {
-		  background-color: white;
-		  color: black;
-		  cursor: pointer;
-		  padding: 10px;
-		  width: 100%;
-		  border: none;
-		  text-align: left;
-		  outline: none;
-		  font-size: 12px;
-		}
-		
-		.active, .collapsible:hover {
-		  background-color: white;
-		}
-		
-		.content {
-		  padding: 0 10px;
-		  display: none;
-		  overflow: hidden;
-		  background-color: #f1f1f1;
-		}
-		</style>
-		</head>
-		<body>
-		
+		<div class="bio">
+			<p>
+				I am an Assistant Professor at the University of Houston, where I have been a faculty member since 2022.
+				My research focuses on reliable and trustworthy computing at the edge, with an emphasis on building resilient
+				and dependable computing systems. I am a recipient of the NSF CAREER Award for my research on Ad-Hoc Cloudless AI.
+				I have also received the Teaching Excellence Award from the University of Houston in recognition of my contributions to teaching and student learning.
+			</p>
+			<p>
+				Previously, I was a Postdoc (NSF CI-Fellow) at Duke University with Dr. Krishnendu Chakrabarty.
+				I did my PhD at Washington State University, where I was advised by Dr. Partha Pratim Pande
+				and Dr. Janardhan Rao Doppa. You can find my CV <a href="Biresh-Joardar-CV.pdf" target="_blank" rel="noopener">here</a>.
+			</p>
+			<p>
+				My current research focuses on reliable and trustworthy computing at the edge, spanning hardware, systems, and AI.
+				I develop techniques to make resource-constrained and distributed computing systems more resilient to hardware
+				failures, security threats, and unreliable operating environments, with a particular interest in enabling
+				trustworthy AI beyond the cloud.
+				A complete list of my work is on my <a href="https://scholar.google.com/citations?user=x4_uRSUAAAAJ&hl=en" target="_blank" rel="noopener">Google Scholar page</a>.
+				Select a research area below to see related publications.
+			</p>
 		</div>
-		<button type="button" class="collapsible">1. ML for manycore design</button>
-		<div class="content">
-			<br>
-			  <b>Relevant publications:</b> 
-			  <ol type="1">
-				<li><a href="https://ieeexplore.ieee.org/abstract/document/8585068/" target="_blank"><b>B. K. Joardar</b>, R. G. Kim, J. R. Doppa, P. P. Pande, D. Marculescu and R. Marculescu, “Learning-based Application-Agnostic 3D NoC Design for Heterogeneous Manycore Systems," in IEEE <i>Transactions on Computers</i>, vol. 68, no. 6, pp. 852-866, 2019</a></li>
-				 <li><a href="https://dl.acm.org/doi/abs/10.1145/3358206" target="_blank">A. Deshwal, N. K. Jayakodi, <b>B. K. Joardar</b>, J. R. Doppa, and P. P. Pande, “MOOS: A Multi-Objective Design Space Exploration and Optimization Framework for NoC Enabled Manycore Systems,” in ACM <i>Transactions on Embed. Comput. Syst</i>. 18, 5s, Article 77, 2019</a></li>
-				 <li><a href="https://dl.acm.org/doi/abs/10.1145/3424239" target="_blank">A. I. Arka, <b>B. K. Joardar</b>, R. G. Kim, D. H. Kim, J. R. Doppa and P. P. Pande, "HeM3D: Heterogeneous Manycore Architecture Based on Monolithic 3D Vertical Integration," in ACM <i>Transactions on Des. Autom. Electron. Syst</i>, 26, 2, Article 16, 2021</a></li>
-				 <li><a href="https://ieeexplore.ieee.org/abstract/document/9440544" target="_blank"><b>B. K. Joardar</b>, A. Deshwal, J. R. Doppa, P. P. Pande and K. Chakrabarty, "High-Throughput Training of Deep CNNs on ReRAM-based Heterogeneous Architectures via Optimized Normalization Layers," in IEEE <i>Transactions on Computer-Aided Design of Integrated Circuits and Systems</i>, 2021</a></li>  
-			   </ol> 
-			<br>
-		</div>
-		<button type="button" class="collapsible">2. Hetereogeneous PIM architectures for ML</button>
-		<div class="content">
-			<br>
-			  <b>Relevant publications:</b> 
-			  <ol type="1">
-				<li><a href="https://ieeexplore.ieee.org/abstract/document/9153831" target="_blank"><b>B. K. Joardar</b>, J. R. Doppa, P. P. Pande, H. Li and K. Chakrabarty, "AccuReD: High Accuracy Training of CNNs on ReRAM/GPU Heterogeneous 3D Architecture," in IEEE <i>Transactions on Computer-Aided Design of Integrated Circuits and Systems</i>, 2020</a></li>
-				<li><a href="https://arxiv.org/abs/2102.07959" target="_blank">A. I. Arka, <b>B. K. Joardar</b>, J. R. Doppa, P. P. Pande and K. Chakrabarty, “ReGraphX: NoC-enabled 3D Heterogeneous ReRAM Architecture for Training Graph Neural Networks,” in Design, Automation & Test in Europe Conference & Exhibition (DATE), Grenoble, France, 2021 <span style="color: #ff0000"><b>(Best Paper Nomination)</b></span>.</a></li> 			  
-				</ol> 
-			<br>
-		</div>
-		<button type="button" class="collapsible">3. Reliable ML using Unreliable Hardware</button>
-		<div class="content">
-			  <b>Relevant publications:</b> 
-			  <ol type="1">
-				<li><a href="https://ieeexplore.ieee.org/abstract/document/9153831" target="_blank"><b>B. K. Joardar</b>, J. R. Doppa, P. P. Pande, H. Li and K. Chakrabarty, "AccuReD: High Accuracy Training of CNNs on ReRAM/GPU Heterogeneous 3D Architecture," in IEEE <i>Transactions on Computer-Aided Design of Integrated Circuits and Systems</i>, 2020</a></li>
-				<li><a href="https://dl.acm.org/doi/10.1145/3476986" target="_blank"><b>B. K. Joardar</b>, J. R. Doppa, H. Li, K. Chakrabarty and P. P. Pande, “Learning to Train CNNs on Faulty ReRAM-based Manycore Accelerators,” in International Conference on Compilers, Architectures, and Synthesis for Embedded Systems (CASES), 2021.</a></li> 
-				   <li><a href="https://arxiv.org/pdf/2109.05437" target="_blank">X. Yang, S. Belakaria, <b>B. K. Joardar</b>, H. Yang, J. R. Doppa, P. P. Pande, K. Chakrabarty and H. Li, “Multi-Objective Optimization of ReRAM Crossbars for Robust DNN Inferencing under Stochastic Noise,” in International Conference on Computer Aided Design (ICCAD), 2021.</a></li> 
-			  </ol> 
-			<br>
-		</div>
-		
-		<script>
-		var coll = document.getElementsByClassName("collapsible");
-		var i;
-		
-		for (i = 0; i < coll.length; i++) {
-		  coll[i].addEventListener("click", function() {
-			this.classList.toggle("active");
-			var content = this.nextElementSibling;
-			if (content.style.display === "block") {
-			  content.style.display = "none";
-			} else {
-			  content.style.display = "block";
-			}
-		  });
-		}
-		</script>
-		
-		</body>
-		</html>
-		
-					</p>
 
-					<h2>PhD openings</h2>
-					<p>
-					I'm looking for PhD students to join my group at University of Houston. The student should have a strong background knowledge of VLSI, computer architecture or machine learning. 
-					Significant coding experience in either C/C++/Python/Verilog is a must. <a href="https://www.ece.uh.edu/graduate/admission-guidelines" target="_blank">Applicants should meet the UH admission requirements</a>. 
-					If you are interested, please reach out to me at: bjoardar (at) central (dot) uh (dot) edu with your CV. Please mention your GPA, GRE and TOEFL scores (if available).
-					Evidence of coding experience (e.g., Github repositories, Participation in online coding contests, etc.) will be preferred. 
-						 
-				</p>
-			</div>
-		</div>	
+		<div class="areas">
+			<details>
+				<summary>ML for manycore design</summary>
+				<div class="pubs">
+					<h3>Relevant publications</h3>
+					<ol>
+						<li><a href="https://ieeexplore.ieee.org/abstract/document/8585068/" target="_blank" rel="noopener"><b>B. K. Joardar</b>, R. G. Kim, J. R. Doppa, P. P. Pande, D. Marculescu and R. Marculescu, “Learning-based Application-Agnostic 3D NoC Design for Heterogeneous Manycore Systems," in IEEE <i>Transactions on Computers</i>, vol. 68, no. 6, pp. 852-866, 2019</a></li>
+						<li><a href="https://dl.acm.org/doi/abs/10.1145/3358206" target="_blank" rel="noopener">A. Deshwal, N. K. Jayakodi, <b>B. K. Joardar</b>, J. R. Doppa, and P. P. Pande, “MOOS: A Multi-Objective Design Space Exploration and Optimization Framework for NoC Enabled Manycore Systems,” in ACM <i>Transactions on Embed. Comput. Syst</i>. 18, 5s, Article 77, 2019</a></li>
+						<li><a href="https://dl.acm.org/doi/abs/10.1145/3424239" target="_blank" rel="noopener">A. I. Arka, <b>B. K. Joardar</b>, R. G. Kim, D. H. Kim, J. R. Doppa and P. P. Pande, "HeM3D: Heterogeneous Manycore Architecture Based on Monolithic 3D Vertical Integration," in ACM <i>Transactions on Des. Autom. Electron. Syst</i>, 26, 2, Article 16, 2021</a></li>
+						<li><a href="https://ieeexplore.ieee.org/abstract/document/9440544" target="_blank" rel="noopener"><b>B. K. Joardar</b>, A. Deshwal, J. R. Doppa, P. P. Pande and K. Chakrabarty, "High-Throughput Training of Deep CNNs on ReRAM-based Heterogeneous Architectures via Optimized Normalization Layers," in IEEE <i>Transactions on Computer-Aided Design of Integrated Circuits and Systems</i>, 2021</a></li>
+					</ol>
+				</div>
+			</details>
+
+			<details>
+				<summary>Heterogeneous PIM architectures for ML</summary>
+				<div class="pubs">
+					<h3>Relevant publications</h3>
+					<ol>
+						<li><a href="https://ieeexplore.ieee.org/abstract/document/9153831" target="_blank" rel="noopener"><b>B. K. Joardar</b>, J. R. Doppa, P. P. Pande, H. Li and K. Chakrabarty, "AccuReD: High Accuracy Training of CNNs on ReRAM/GPU Heterogeneous 3D Architecture," in IEEE <i>Transactions on Computer-Aided Design of Integrated Circuits and Systems</i>, 2020</a></li>
+						<li><a href="https://arxiv.org/abs/2102.07959" target="_blank" rel="noopener">A. I. Arka, <b>B. K. Joardar</b>, J. R. Doppa, P. P. Pande and K. Chakrabarty, “ReGraphX: NoC-enabled 3D Heterogeneous ReRAM Architecture for Training Graph Neural Networks,” in Design, Automation & Test in Europe Conference & Exhibition (DATE), Grenoble, France, 2021 <span class="badge">(Best Paper Nomination)</span></a></li>
+					</ol>
+				</div>
+			</details>
+
+			<details>
+				<summary>Reliable ML using unreliable hardware</summary>
+				<div class="pubs">
+					<h3>Relevant publications</h3>
+					<ol>
+						<li><a href="https://ieeexplore.ieee.org/abstract/document/9153831" target="_blank" rel="noopener"><b>B. K. Joardar</b>, J. R. Doppa, P. P. Pande, H. Li and K. Chakrabarty, "AccuReD: High Accuracy Training of CNNs on ReRAM/GPU Heterogeneous 3D Architecture," in IEEE <i>Transactions on Computer-Aided Design of Integrated Circuits and Systems</i>, 2020</a></li>
+						<li><a href="https://dl.acm.org/doi/10.1145/3476986" target="_blank" rel="noopener"><b>B. K. Joardar</b>, J. R. Doppa, H. Li, K. Chakrabarty and P. P. Pande, “Learning to Train CNNs on Faulty ReRAM-based Manycore Accelerators,” in International Conference on Compilers, Architectures, and Synthesis for Embedded Systems (CASES), 2021.</a></li>
+						<li><a href="https://arxiv.org/pdf/2109.05437" target="_blank" rel="noopener">X. Yang, S. Belakaria, <b>B. K. Joardar</b>, H. Yang, J. R. Doppa, P. P. Pande, K. Chakrabarty and H. Li, “Multi-Objective Optimization of ReRAM Crossbars for Robust DNN Inferencing under Stochastic Noise,” in International Conference on Computer Aided Design (ICCAD), 2021.</a></li>
+					</ol>
+				</div>
+			</details>
+		</div>
+
+		<div class="openings">
+			<h2>PhD openings</h2>
+			<p>
+				I am looking for PhD students to join my group at the University of Houston. Applicants should have strong background knowledge of VLSI, computer architecture, or machine learning,
+				and significant coding experience in C/C++/Python/Verilog. <a href="https://www.ece.uh.edu/graduate/admission-guidelines" target="_blank" rel="noopener">Applicants must meet the UH admission requirements</a>.
+			</p>
+			<p>
+				If you are interested, email me at bjoardar (at) central (dot) uh (dot) edu with your CV, and include your GPA, GRE and TOEFL scores (if available).
+				Evidence of coding experience (e.g., GitHub repositories, online coding contests) is preferred.
+			</p>
+		</div>
 	</div>
+
 	<div id="footer">
-			<a href="https://scholar.google.com/citations?user=x4_uRSUAAAAJ&hl=en" target="blank_"><img src="images/icon-gscholar.png"></img></a><a href="https://www.linkedin.com/in/bkjoardar/" target="blank_"><img src="images/icon-linkedln.png"></img></a>
-			<font color="black">   Webpage Last updated: Sep, 2026</font>
+		<a href="https://scholar.google.com/citations?user=x4_uRSUAAAAJ&hl=en" target="_blank" rel="noopener"><img src="images/icon-gscholar.png" alt="Google Scholar"></a><a href="https://www.linkedin.com/in/bkjoardar/" target="_blank" rel="noopener"><img src="images/icon-linkedln.png" alt="LinkedIn"></a>
+		<span>Webpage last updated: Sep 2026</span>
 	</div>
 </body>
 </html>
