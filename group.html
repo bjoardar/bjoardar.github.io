@@ -1,267 +1,93 @@
 <!DOCTYPE html>
-<!-- Website template by freewebsitetemplates.com -->
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Research Group | Biresh Kumar Joardar</title>
-
-    <link rel="stylesheet" type="text/css" href="css/style.css">
-    <link rel="stylesheet" type="text/css" href="css/mobile.css">
-    <script src="js/mobile.js"></script>
-
-    <style>
-        /* Styles specific to the mentoring page. */
-        #body .mentoring-section {
-            margin: 0 0 40px;
-        }
-
-        #body .team-grid {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 28px;
-            margin-top: 24px;
-        }
-
-        #body .team-member {
-            display: block;
-            float: none;
-            width: 180px;
-            margin: 0;
-            padding: 0;
-            text-align: center;
-        }
-
-        #body .team-member img {
-            display: block;
-            float: none;
-            width: 140px;
-            height: 160px;
-            max-width: 100%;
-            margin: 0 auto 12px;
-            padding: 0;
-            object-fit: cover;
-            object-position: center top;
-            border-radius: 6px;
-        }
-
-        #body .team-member figcaption {
-            font-size: 16px;
-            font-weight: bold;
-            line-height: 1.5;
-        }
-
-        #body .mentoring-list,
-        #body .resource-list {
-            margin: 16px 0;
-            padding-left: 24px;
-        }
-
-        #body .mentoring-list > li,
-        #body .resource-list > li {
-            display: list-item;
-            float: none;
-            width: auto;
-            height: auto;
-            margin: 0 0 12px;
-            padding: 0;
-            background: none;
-            line-height: 1.7;
-        }
-
-        #body .resource-list a {
-            text-underline-offset: 3px;
-        }
-
-        @media screen and (max-width: 480px) {
-            #body .team-grid {
-                gap: 24px 16px;
-            }
-
-            #body .team-member {
-                width: calc(50% - 8px);
-            }
-
-            #body .team-member img {
-                width: 120px;
-                height: 140px;
-            }
-
-            #body .team-member figcaption {
-                font-size: 14px;
-            }
-        }
-    </style>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Mentoring | Biresh Kumar Joardar</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/mobile.css">
+	<link rel="stylesheet" type="text/css" href="css/custom.css">
+	<script src="js/mobile.js"></script>
 </head>
-
 <body>
-    <div id="header">
-        <h1>
-            <a href="index.html">
-                Biresh Kumar Joardar
-                <span>Assistant Professor</span>
-            </a>
-        </h1>
+	<div id="header">
+		<h1><a href="index.html">Biresh Kumar Joardar <span>Assistant Professor</span></a></h1>
+		<ul id="navigation">
+			<li><a href="index.html">Home</a></li>
+			<li><a href="research.html">Research</a></li>
+			<li class="current"><a href="group.html" aria-current="page">Mentoring</a></li>
+			<li><a href="teaching.html">Teaching</a></li>
+			<li><a href="other.html">Service</a></li>
+			<li><a href="award.html">Awards</a></li>
+		</ul>
+	</div>
 
-        <ul id="navigation">
-            <li>
-                <a href="index.html">Home</a>
-            </li>
-            <li>
-                <a href="research.html">Research</a>
-            </li>
-            <li class="current">
-                <a href="group.html" aria-current="page">Mentoring</a>
-            </li>
-            <li>
-                <a href="teaching.html">Teaching</a>
-            </li>
-            <li>
-                <a href="other.html">Service</a>
-            </li>
-            <li>
-                <a href="award.html">Awards</a>
-            </li>
-        </ul>
-    </div>
+	<div id="body">
+		<section class="mentoring-section" aria-labelledby="team-heading">
+			<h2 id="team-heading">Meet the Current Team</h2>
+			<div class="team-grid">
+				<figure class="team-member">
+					<img src="images/me.png" alt="Biresh Kumar Joardar" width="140" height="160">
+					<figcaption>Biresh K. Joardar<span>Principal investigator</span></figcaption>
+				</figure>
+				<figure class="team-member">
+					<img src="images/nophoto.jpg" alt="" width="140" height="160">
+					<figcaption>Pravineeth Edara<span>PhD student</span></figcaption>
+				</figure>
+			</div>
+		</section>
 
-    <div id="body">
-        <section class="mentoring-section" aria-labelledby="team-heading">
-            <h2 id="team-heading">Meet the Current Team</h2>
+		<section class="mentoring-section" aria-labelledby="past-heading">
+			<h3 id="past-heading">Past Mentoring</h3>
+			<p>I have worked with a diverse group of students from different countries.</p>
 
-            <div class="team-grid">
-                <figure class="team-member">
-                    <img
-                        src="images/me.png"
-                        alt="Biresh Kumar Joardar"
-                        width="140"
-                        height="160"
-                    >
-                    <figcaption>Biresh K. Joardar</figcaption>
-                </figure>
+			<h4>University of Houston</h4>
+			<ul>
+				<li>Masoud Heidary, MS with thesis</li>
+				<li>Iyad AlHasan, MS with thesis</li>
+				<li>Sujitha Ravichandran, MS</li>
+				<li>Parth Sharma, undergraduate (SURF fellowship)</li>
+				<li>Nabeel Bangash, undergraduate (SURF fellowship)</li>
+				<li>David Williams, undergraduate</li>
+				<li>Thanh Pham, undergraduate</li>
+				<li>Sara M Romero, undergraduate</li>
+				<li>Sai Bharani Veerepalli, undergraduate</li>
+			</ul>
 
-                <figure class="team-member">
-                    <img
-                        src="images/nophoto.jpg"
-                        alt="Photo unavailable for Pravineeth Edara"
-                        width="140"
-                        height="160"
-                    >
-                    <figcaption>Pravineeth Edara</figcaption>
-                </figure>
-            </div>
-        </section>
+			<h4>Duke University</h4>
+			<ul>
+				<li>Eduardo Ortega, PhD candidate and Sloan Scholar, Duke/Arizona State University</li>
+				<li>Chung-Hsuan Tung, PhD candidate</li>
+				<li>Xian Sun, MS, graduated Spring 2021</li>
+			</ul>
 
-        <section class="mentoring-section" aria-labelledby="past-heading">
-            <h3 id="past-heading">Past Mentoring</h3>
+			<h4>Washington State University</h4>
+			<ul>
+				<li>Aqeeb Iqbal Arka, PhD, graduated Summer 2022</li>
+				<li>Chukwufumnanya Ogbogu, PhD candidate</li>
+			</ul>
 
-            <p>
-                I have worked with a diverse group of students from
-                different countries.
-            </p>
+			<h4>Other students</h4>
+			<p>
+				I have also mentored other graduate, undergraduate and school students from various grades; one of these projects led to a paper at ICEdge 2025.
+				I regularly judge regional and state-level school science fairs in Texas.
+			</p>
+		</section>
 
-            <ol class="mentoring-list">
-                <li>
-                    Parth Sharma, Undergraduate (SURF fellowship),
-                    University of Houston
-                </li>
-                <li>
-                    Nabeel Bangash, Undergraduate (SURF fellowship),
-                    University of Houston
-                </li>
-                <li>
-                    Masoud Heidary, MS with thesis,
-                    University of Houston
-                </li>
-                <li>
-                    Iyad AlHasan, MS with thesis,
-                    University of Houston
-                </li>
-                <li>
-                    Sujitha Ravichandran, MS,
-                    University of Houston
-                </li>
-                <li>
-                    Eduardo Ortega, PhD candidate and Sloan Scholar,
-                    Duke/Arizona State University
-                </li>
-                <li>
-                    Chung-Hsuan Tung, PhD candidate,
-                    Duke University
-                </li>
-                <li>
-                    Aqeeb Iqbal Arka, PhD,
-                    Washington State University, graduated Summer 2022
-                </li>
-                <li>
-                    Chukwufumnanya Ogbogu, PhD candidate,
-                    Washington State University
-                </li>
-                <li>
-                    Xian Sun, MS,
-                    Duke University, graduated Spring 2021
-                </li>
-            </ol>
-			<br>
+		<section class="mentoring-section" aria-labelledby="resources-heading">
+			<h3 id="resources-heading">Online Resources from Our Group</h3>
+			<ul>
+				<li><a href="Vitis_Parth.pdf" target="_blank" rel="noopener">FPGA tutorial</a> by Parth Sharma</li>
+				<li><a href="FPGA_Iyad.pdf" target="_blank" rel="noopener">FPGA tutorial</a> by Iyad AlHasan</li>
+				<li><a href="https://youtube.com/playlist?list=PLwG3CDMGQX8OiYPO9v3iSTmITxAe1PLfM" target="_blank" rel="noopener">FPGA tutorial video</a> by Iyad AlHasan</li>
+				<li><a href="pynq_tutorial_Durga.pdf" target="_blank" rel="noopener">PYNQ tutorial</a> by Sri Durga Raju</li>
+				<li><a href="FHE_Iyad.pdf" target="_blank" rel="noopener">Fully Homomorphic Encryption tutorial</a> by Iyad AlHasan</li>
+			</ul>
+		</section>
+	</div>
 
-            <p>
-                I have also mentored multiple undergraduate and
-                high-school students from various schools.
-            </p>
-        </section>
-
-        <section class="mentoring-section" aria-labelledby="resources-heading">
-            <h3 id="resources-heading">Online Resources from Our Group</h3>
-
-            <ol class="resource-list">
-                <li>
-                    <a href="Vitis_Parth.pdf"
-                       target="_blank" rel="noopener noreferrer">
-                        FPGA tutorial
-                    </a>
-                    by Parth Sharma
-                </li>
-                <li>
-                    <a href="FPGA_Iyad.pdf"
-                       target="_blank" rel="noopener noreferrer">
-                        FPGA tutorial
-                    </a>
-                    by Iyad AlHasan
-                </li>
-                <li>
-                    <a href="https://youtube.com/playlist?list=PLwG3CDMGQX8OiYPO9v3iSTmITxAe1PLfM"
-                       target="_blank" rel="noopener noreferrer">
-                        FPGA tutorial video
-                    </a>
-                    by Iyad AlHasan
-                </li>
-                <li>
-                    <a href="pynq_tutorial_Durga.pdf"
-                       target="_blank" rel="noopener noreferrer">
-                        PYNQ tutorial
-                    </a>
-                    by Sri Durga Raju
-                </li>
-                <li>
-                    <a href="FHE_Iyad.pdf"
-                       target="_blank" rel="noopener noreferrer">
-                        Fully Homomorphic Encryption tutorial
-                    </a>
-                    by Iyad AlHasan
-                </li>
-            </ol>
-        </section>
-    </div>
-
-    <div id="footer">
-        <a href="https://scholar.google.com/citations?user=x4_uRSUAAAAJ&amp;hl=en"
-           target="_blank" rel="noopener noreferrer">
-            <img src="images/icon-gscholar.png" alt="Google Scholar">
-        </a>
-        <a href="https://www.linkedin.com/in/bkjoardar/"
-           target="_blank" rel="noopener noreferrer">
-            <img src="images/icon-linkedln.png" alt="LinkedIn">
-        </a>
-    </div>
+	<div id="footer">
+		<a href="https://scholar.google.com/citations?user=x4_uRSUAAAAJ&amp;hl=en" target="_blank" rel="noopener"><img src="images/icon-gscholar.png" alt="Google Scholar"></a><a href="https://www.linkedin.com/in/bkjoardar/" target="_blank" rel="noopener"><img src="images/icon-linkedln.png" alt="LinkedIn"></a>
+	</div>
 </body>
 </html>
