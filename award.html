@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<!-- Website template by freewebsitetemplates.com -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Awards | Biresh Kumar Joardar</title>
+
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/mobile.css">
+    <script src="js/mobile.js"></script>
+
+    <style>
+        #body .awards-section {
+            padding: 20px 0 40px;
+        }
+
+        #body .awards-list {
+            list-style: none;
+            margin: 24px 0 0;
+            padding: 0;
+        }
+
+        #body .awards-list > li {
+            display: flex;
+            align-items: baseline;
+            gap: 24px;
+            margin: 0;
+            padding: 20px 0;
+            border-bottom: 1px solid #ddd;
+            background: none;
+            width: auto;
+            height: auto;
+            float: none;
+        }
+
+        #body .award-year {
+            flex: 0 0 70px;
+            font-weight: bold;
+            color: #555;
+        }
+
+        #body .award-details {
+            flex: 1;
+            min-width: 0;
+        }
+
+        #body .award-details h3 {
+            margin: 0 0 6px;
+            padding: 0;
+            font-size: 18px;
+            line-height: 1.5;
+        }
+
+        #body .award-details p {
+            margin: 0;
+            padding: 0;
+            line-height: 1.7;
+        }
+
+        #body .award-details a {
+            text-underline-offset: 3px;
+        }
+
+        @media screen and (max-width: 600px) {
+            #body .awards-list > li {
+                flex-direction: column;
+                gap: 4px;
+            }
+
+            #body .award-year {
+                flex-basis: auto;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div id="header">
+        <h1>
+            <a href="index.html">
+                Biresh Kumar Joardar
+                <span>Assistant Professor</span>
+            </a>
+        </h1>
+
+        <ul id="navigation">
+            <li>
+                <a href="index.html">Home</a>
+            </li>
+            <li>
+                <a href="research.html">Research</a>
+            </li>
+            <li>
+                <a href="group.html">Mentoring</a>
+            </li>
+            <li>
+                <a href="teaching.html">Teaching</a>
+            </li>
+            <li>
+                <a href="other.html">Service</a>
+            </li>
+            <li class="current">
+                <a href="award.html" aria-current="page">Awards</a>
+            </li>
+        </ul>
+    </div>
+
+    <div id="body">
+        <section class="awards-section" aria-labelledby="awards-heading">
+            <h2 id="awards-heading">Awards &amp; Honors</h2>
+
+            <!-- Add awards in reverse chronological order. -->
+            <ul class="awards-list">
+                <li>
+                    <span class="award-year">2026</span>
+                    <div class="award-details">
+                        <h3>Outstanding reviewer</h3>
+                        <p>ESWEEK</p>
+                    </div>
+                </li>
+
+                <li>
+                    <span class="award-year">[Year]</span>
+                    <div class="award-details">
+                        <h3>[Award Name]</h3>
+                        <p>[Awarding organization]</p>
+                        <p>[Brief description, if needed.]</p>
+                    </div>
+                </li>
+
+                <li>
+                    <span class="award-year">[Year]</span>
+                    <div class="award-details">
+                        <h3>[Award Name]</h3>
+                        <p>[Awarding organization]</p>
+                        <p>[Brief description, if needed.]</p>
+                    </div>
+                </li>
+            </ul>
+        </section>
+    </div>
+
+    <div id="footer">
+        <a href="https://scholar.google.com/citations?user=x4_uRSUAAAAJ&amp;hl=en"
+           target="_blank" rel="noopener noreferrer">
+            <img src="images/icon-gscholar.png" alt="Google Scholar">
+        </a>
+        <a href="https://www.linkedin.com/in/bkjoardar/"
+           target="_blank" rel="noopener noreferrer">
+            <img src="images/icon-linkedln.png" alt="LinkedIn">
+        </a>
+        <span style="color: black;">
+            Webpage Last updated: Sep, 2026
+        </span>
+    </div>
+</body>
+</html>
