@@ -1,78 +1,86 @@
 <!DOCTYPE html>
-<!-- Website template by freewebsitetemplates.com -->
-<html>
+<html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<meta name="viewport" content="user-scalable=0, width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-	<title>Biresh's Website</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Teaching | Biresh Kumar Joardar</title>
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<link rel="stylesheet" type="text/css" href="css/mobile.css">
-	<script type='text/javascript' src='js/mobile.js'></script>
+	<link rel="stylesheet" type="text/css" href="css/custom.css">
+	<script src="js/mobile.js"></script>
 </head>
 <body>
 	<div id="header">
 		<h1><a href="index.html">Biresh Kumar Joardar <span>Assistant Professor</span></a></h1>
 		<ul id="navigation">
-			<li>
-				<a href="index.html">Home</a>
-			</li>
-			<li>
-				<a href="research.html">Research</a>
-			</li>
-			<li>
-				<a href="group.html">Mentoring</a>
-			</li>
-			<li>
-				<a href="teaching.html">Teaching</a>
-			</li>
-			<li>
-				<a href="other.html">Service</a>
-			</li>
-			<li>
-				<a href="award.html">Awards</a>
-			</li>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="research.html">Research</a></li>
+			<li><a href="group.html">Mentoring</a></li>
+			<li class="current"><a href="teaching.html" aria-current="page">Teaching</a></li>
+			<li><a href="other.html">Service</a></li>
+			<li><a href="award.html">Awards</a></li>
 		</ul>
 	</div>
+
 	<div id="body">
-		<h3 class="mb-0">Teaching</h3>
-          <div><p>
-            <ol type="1">
-        		<li>VLSI, Spring 2023, Fall 2023, Spring 2024, Fall 2024 - 2026, University of Houston</li>
-				<li>C Programming, Spring 2025 - 2026, University of Houston</li>
-				<li>Machine learning for hardware design, Duke university, Fall 2021</li>
-			  </ol> 
-          </div></p><br>
+		<section class="page-section" aria-labelledby="courses-heading">
+			<h2 id="courses-heading">Teaching</h2>
+			<p>Recipient of the Teaching Excellence Award, University of Houston (2025).</p>
+			<ul class="course-list">
+				<li>
+					<strong>ECE 5346/6346: VLSI</strong>
+					<span>University of Houston &middot; Spring and Fall 2023, Spring and Fall 2024, Fall 2025, Fall 2026</span>
+				</li>
+				<li>
+					<strong>ECE 3331: C Programming</strong>
+					<span>University of Houston &middot; Spring 2025, Spring 2026 (about 100 students each term)</span>
+				</li>
+				<li>
+					<strong>ECE 590-7061: Machine Learning-based Hardware Design Methodologies</strong>
+					<span>Duke University &middot; Fall 2021</span>
+				</li>
+			</ul>
+		</section>
 
+		<section class="page-section" aria-labelledby="tutorials-heading">
+			<h3 id="tutorials-heading">Tutorials, Lectures and Special Sessions</h3>
+			<ul>
+				<li><a href="ESWEEK_tutorial.pdf" target="_blank" rel="noopener">Heterogeneous Processing-in-Memory enabled Manycore Systems for Deep Learning</a>, ESWEEK 2022 (with <a href="https://eecs.wsu.edu/~jana/" target="_blank" rel="noopener">Dr. Janardhan Rao Doppa</a>)</li>
+				<li><a href="https://www.youtube.com/watch?v=hVJ2-4aZON0&amp;list=PLMohsHZ1UrxtCY69Lo61jrRRdY0BZIv9t&amp;index=12" target="_blank" rel="noopener">Machine Learning for Manycore System Design and Optimization</a>, ESWEEK 2021 (with <a href="https://eecs.wsu.edu/~jana/" target="_blank" rel="noopener">Dr. Janardhan Rao Doppa</a>)</li>
+				<li>Special session at VTS 2026</li>
+				<li>Special session at DCAS 2024</li>
+				<li>Special session at ICCAD 2021: Processing-in-Memory enabled Heterogeneous Manycore Architectures for Deep Learning: From CNNs to GNNs</li>
+			</ul>
+		</section>
 
-		<h3 class="mb-0">Tutorials, Lectures and Special Sessions</h3>
-          <ol type="1">
-            <li><a href="ESWEEK_tutorial.pdf" target="_blank"><b>Heterogeneous Processing-in-Memory enabled Manycore Systems for Deep Learning</b></a> at ESWEEK 2022 (with <a href="https://eecs.wsu.edu/~jana/" target="_blank"><b>Dr. Janardhan Rao Doppa</b></a>)</li>
-            <li><a href="https://www.youtube.com/watch?v=hVJ2-4aZON0&list=PLMohsHZ1UrxtCY69Lo61jrRRdY0BZIv9t&index=12" target="_blank"><b>Machine Learning for Manycore System Design and Optimization</b></a> at ESWEEK 2021 (with <a href="https://eecs.wsu.edu/~jana/" target="_blank"><b>Dr. Janardhan Rao Doppa</b></a>)</li>
-            <li> Special session at ICCAD 2021 (Title: Processing-in-Memory enabled Heterogeneous Manycore Architectures for Deep Learning: From CNNs to GNNs)</li>
-          </ol><br>
+		<section class="page-section" aria-labelledby="presentations-heading">
+			<h3 id="presentations-heading">Conference Presentations</h3>
+			<ul class="cols">
+				<li>VTS (2026)</li>
+				<li>DCAS (2024)</li>
+				<li>NOCS (2019)</li>
+				<li>DATE (2018, 2019, 2020, 2022)</li>
+				<li>SRC annual event (2021, 2022)</li>
+				<li>Cadence (2019)</li>
+			</ul>
+		</section>
 
-
-		  <h3 class="mb-0">Conference presentations</h3>
-          <ol type="1">
-			<li>VTS (2026)</li>
-			<li>DCAS (2024)</li>
-            <li>NOCS (2019)</li>
-			<li>DATE (2018, 2019, 2020, 2022)</li>
-			<li>SRC annual event (2021, 2022)</li>
-			<li>Cadence (2019)</li>
-          </ol><br> 
-		 
-		 
-		  <h3 class="mb-0">Invited Talks</h3>
-          <ol type="1">
-            <li>NCSU, UC Irvine, UT Dallas, UC Riverside, Boston University, Iowa State University, Auburn university </li>
-          </ol><br>
-		  
-        
-        
+		<section class="page-section" aria-labelledby="talks-heading">
+			<h3 id="talks-heading">Invited Talks</h3>
+			<ul class="cols">
+				<li>North Carolina State University</li>
+				<li>UC Irvine</li>
+				<li>UT Dallas</li>
+				<li>UC Riverside</li>
+				<li>Boston University</li>
+				<li>Iowa State University</li>
+				<li>Auburn University</li>
+			</ul>
+		</section>
 	</div>
+
 	<div id="footer">
-		<a href="https://scholar.google.com/citations?user=x4_uRSUAAAAJ&hl=en" target="blank_"><img src="images/icon-gscholar.png"></img></a><a href="https://www.linkedin.com/in/bkjoardar/" target="blank_"><img src="images/icon-linkedln.png"></img></a>
+		<a href="https://scholar.google.com/citations?user=x4_uRSUAAAAJ&amp;hl=en" target="_blank" rel="noopener"><img src="images/icon-gscholar.png" alt="Google Scholar"></a><a href="https://www.linkedin.com/in/bkjoardar/" target="_blank" rel="noopener"><img src="images/icon-linkedln.png" alt="LinkedIn"></a>
 	</div>
 </body>
 </html>
