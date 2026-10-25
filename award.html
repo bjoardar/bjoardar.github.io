@@ -1,198 +1,112 @@
 <!DOCTYPE html>
-<!-- Website template by freewebsitetemplates.com -->
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Awards | Biresh Kumar Joardar</title>
-
-    <link rel="stylesheet" type="text/css" href="css/style.css">
-    <link rel="stylesheet" type="text/css" href="css/mobile.css">
-    <script src="js/mobile.js"></script>
-
-    <style>
-        #body .awards-section {
-            padding: 20px 0 40px;
-        }
-
-        #body .awards-list {
-            list-style: none;
-            margin: 24px 0 0;
-            padding: 0;
-        }
-
-        #body .awards-list > li {
-            display: flex;
-            align-items: baseline;
-            gap: 24px;
-            margin: 0;
-            padding: 20px 0;
-            border-bottom: 1px solid #ddd;
-            background: none;
-            width: auto;
-            height: auto;
-            float: none;
-        }
-
-        #body .award-year {
-            flex: 0 0 70px;
-            font-weight: bold;
-            color: #555;
-        }
-
-        #body .award-details {
-            flex: 1;
-            min-width: 0;
-        }
-
-        #body .award-details h3 {
-            margin: 0 0 6px;
-            padding: 0;
-            font-size: 18px;
-            line-height: 1.5;
-        }
-
-        #body .award-details p {
-            margin: 0;
-            padding: 0;
-            line-height: 1.7;
-        }
-
-        #body .award-details a {
-            text-underline-offset: 3px;
-        }
-
-        @media screen and (max-width: 600px) {
-            #body .awards-list > li {
-                flex-direction: column;
-                gap: 4px;
-            }
-
-            #body .award-year {
-                flex-basis: auto;
-            }
-        }
-    </style>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Awards | Biresh Kumar Joardar</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/mobile.css">
+	<link rel="stylesheet" type="text/css" href="css/custom.css">
+	<script src="js/mobile.js"></script>
 </head>
-
 <body>
-    <div id="header">
-        <h1>
-            <a href="index.html">
-                Biresh Kumar Joardar
-                <span>Assistant Professor</span>
-            </a>
-        </h1>
+	<div id="header">
+		<h1><a href="index.html">Biresh Kumar Joardar <span>Assistant Professor</span></a></h1>
+		<ul id="navigation">
+			<li><a href="index.html">Home</a></li>
+			<li><a href="research.html">Research</a></li>
+			<li><a href="group.html">Mentoring</a></li>
+			<li><a href="teaching.html">Teaching</a></li>
+			<li><a href="other.html">Service</a></li>
+			<li class="current"><a href="award.html" aria-current="page">Awards</a></li>
+		</ul>
+	</div>
 
-        <ul id="navigation">
-            <li>
-                <a href="index.html">Home</a>
-            </li>
-            <li>
-                <a href="research.html">Research</a>
-            </li>
-            <li>
-                <a href="group.html">Mentoring</a>
-            </li>
-            <li>
-                <a href="teaching.html">Teaching</a>
-            </li>
-            <li>
-                <a href="other.html">Service</a>
-            </li>
-            <li class="current">
-                <a href="award.html" aria-current="page">Awards</a>
-            </li>
-        </ul>
-    </div>
+	<div id="body">
+		<section class="awards-section" aria-labelledby="awards-heading">
+			<h2 id="awards-heading">Awards &amp; Honors</h2>
 
-    <div id="body">
-        <section class="awards-section" aria-labelledby="awards-heading">
-            <h2 id="awards-heading">Awards &amp; Honors</h2>
+			<!-- Add awards in reverse chronological order. -->
+			<ul class="awards-list">
+				<!-- NSF CAREER Award: add the year, then uncomment and move to the right position.
+				<li>
+					<span class="award-year">YEAR</span>
+					<div class="award-details">
+						<h3>NSF CAREER Award</h3>
+						<p>National Science Foundation<span class="paper">Ad-Hoc Cloudless AI</span></p>
+					</div>
+				</li>
+				-->
+				<li>
+					<span class="award-year">2026</span>
+					<div class="award-details">
+						<h3>Outstanding Reviewer Award</h3>
+						<p>ESWEEK</p>
+					</div>
+				</li>
+				<li>
+					<span class="award-year">2025</span>
+					<div class="award-details">
+						<h3>Teaching Excellence Award</h3>
+						<p>University of Houston</p>
+					</div>
+				</li>
+				<li>
+					<span class="award-year">2024</span>
+					<div class="award-details">
+						<h3>Highlight Paper</h3>
+						<p>ACM TODAES<span class="paper"><a href="https://dl.acm.org/doi/abs/10.1145/3656171" target="_blank" rel="noopener">Data Pruning-enabled High Performance and Reliable Graph Neural Network Training on ReRAM-based Processing-in-Memory Accelerators</a></span></p>
+					</div>
+				</li>
+				<li>
+					<span class="award-year">2024</span>
+					<div class="award-details">
+						<h3>Spotlight Paper</h3>
+						<p>IEEE JETCAS<span class="paper"><a href="https://ieeexplore.ieee.org/abstract/document/10596278/" target="_blank" rel="noopener">HALO: Communication-aware Heterogeneous 2.5D System for Energy-efficient LLM Execution at Edge</a></span></p>
+					</div>
+				</li>
+				<li>
+					<span class="award-year">2021</span>
+					<div class="award-details">
+						<h3>DAAD AInet Fellowship</h3>
+						<p>DAAD, Germany</p>
+					</div>
+				</li>
+				<li>
+					<span class="award-year">2021</span>
+					<div class="award-details">
+						<h3>Best Paper Nomination</h3>
+						<p>DATE<span class="paper"><a href="https://ieeexplore.ieee.org/abstract/document/9473949" target="_blank" rel="noopener">ReGraphX: NoC-enabled 3D Heterogeneous ReRAM Architecture for Training Graph Neural Networks</a></span></p>
+					</div>
+				</li>
+				<li>
+					<span class="award-year">2020</span>
+					<div class="award-details">
+						<h3>Best Paper Nomination</h3>
+						<p>DATE<span class="paper"><a href="https://ieeexplore.ieee.org/abstract/document/9116273" target="_blank" rel="noopener">GRAMARCH: A GPU-ReRAM based Heterogeneous Architecture for Neural Image Segmentation</a></span></p>
+					</div>
+				</li>
+				<li>
+					<span class="award-year">2020</span>
+					<div class="award-details">
+						<h3>Computing Innovation Fellowship</h3>
+						<p>CRA and CCC, US</p>
+					</div>
+				</li>
+				<li>
+					<span class="award-year">2019</span>
+					<div class="award-details">
+						<h3>Best Paper Award</h3>
+						<p>NOCS<span class="paper"><a href="https://dl.acm.org/doi/abs/10.1145/3313231.3352367" target="_blank" rel="noopener">NoC-enabled Software/Hardware Co-Design Framework for Accelerating k-mer Counting</a></span></p>
+					</div>
+				</li>
+			</ul>
+		</section>
+	</div>
 
-            <!-- Add awards in reverse chronological order. -->
-            <ul class="awards-list">
-                <li>
-                    <span class="award-year">2026</span>
-                    <div class="award-details">
-                        <h3>Outstanding reviewer</h3>
-                        <p>ESWEEK</p>
-                    </div>
-                </li>
-
-                <li>
-                    <span class="award-year">2025</span>
-                    <div class="award-details">
-                        <h3>Teaching Excellence Award</h3>
-                        <p>University of Houston</p>
-                    </div>
-                </li>
-
-                <li>
-                    <span class="award-year">2024</span>
-                    <div class="award-details">
-                        <h3>Highlight paper</h3>
-                        <p>ACM TODAES</p>
-                    </div>
-                </li>
-				<li>
-                    <span class="award-year">2024</span>
-                    <div class="award-details">
-                        <h3>Spotlight paper</h3>
-                        <p>ACM JETC</p>
-                    </div>
-                </li>
-				<li>
-                    <span class="award-year">2021</span>
-                    <div class="award-details">
-                        <h3>DAAD AINet Fellowship</h3>
-                        <p>DAAD, Germany</p>
-                    </div>
-                </li>
-				<li>
-                    <span class="award-year">2021</span>
-                    <div class="award-details">
-                        <h3>Best Paper nomination</h3>
-                        <p>DATE conference</p>
-                    </div>
-                </li>
-				<li>
-                    <span class="award-year">2020</span>
-                    <div class="award-details">
-                        <h3>Best Paper nomination</h3>
-                        <p>DATE conference</p>
-                    </div>
-                </li>
-				<li>
-                    <span class="award-year">2020</span>
-                    <div class="award-details">
-                        <h3>CI Fellowship</h3>
-                        <p>CRA and CCC, US</p>
-                    </div>
-                </li>
-				<li>
-                    <span class="award-year">2019</span>
-                    <div class="award-details">
-                        <h3>Best Paper Award</h3>
-                        <p>NOCS conference</p>
-                    </div>
-                </li>
-            </ul>
-        </section>
-    </div>
-
-    <div id="footer">
-        <a href="https://scholar.google.com/citations?user=x4_uRSUAAAAJ&amp;hl=en"
-           target="_blank" rel="noopener noreferrer">
-            <img src="images/icon-gscholar.png" alt="Google Scholar">
-        </a>
-        <a href="https://www.linkedin.com/in/bkjoardar/"
-           target="_blank" rel="noopener noreferrer">
-            <img src="images/icon-linkedln.png" alt="LinkedIn">
-        </a>
-        <span style="color: black;">
-            Webpage Last updated: Sep, 2026
-        </span>
-    </div>
+	<div id="footer">
+		<a href="https://scholar.google.com/citations?user=x4_uRSUAAAAJ&amp;hl=en" target="_blank" rel="noopener"><img src="images/icon-gscholar.png" alt="Google Scholar"></a><a href="https://www.linkedin.com/in/bkjoardar/" target="_blank" rel="noopener"><img src="images/icon-linkedln.png" alt="LinkedIn"></a>
+		<span>Webpage last updated: Sep 2026</span>
+	</div>
 </body>
 </html>
